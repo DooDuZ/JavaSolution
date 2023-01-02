@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1074.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test10773.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test10828.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test10845.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test10866.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test11723.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test11866.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1463_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1463_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test15829.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1654_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1654_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1697_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1697_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1697_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test18111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1874.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1920.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test1966.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test2164.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test2475.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test2577.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test2741.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test2805.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test2920.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test4949.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test9012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/test9095.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JlIyYpJKlzg3hamcwkfmDdfOG6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/sin91/IdeaProjects/JavaSolution/src/main/java/solution/classTest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="" />
+      <created>1672646498287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672646498287</updated>
+      <workItem from="1672646499718" duration="332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
