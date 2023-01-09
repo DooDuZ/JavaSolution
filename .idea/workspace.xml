@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="DSLR 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test2178.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="미로탈출 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test11047.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test1260.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test1992.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +97,33 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\main\java\solution\levelTest\level12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test9019">
+  <component name="RunManager" selected="Application.test11047">
+    <configuration name="test11047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test11047" />
+      <module name="JavaSolution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.classTest.class3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test1260" />
+      <module name="JavaSolution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.classTest.class3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test16_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.levelTest.level16.test16_7" />
       <module name="JavaSolution.main" />
@@ -109,21 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test18111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class2.test18111" />
-      <module name="JavaSolution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.classTest.class2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test5525" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test5525" />
+    <configuration name="test1992" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test1992" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -148,34 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaSolution [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test11047" />
+        <item itemvalue="Application.test1992" />
+        <item itemvalue="Application.test1260" />
         <item itemvalue="Application.test9019" />
         <item itemvalue="Application.test16_7" />
-        <item itemvalue="Application.test5525" />
-        <item itemvalue="Application.test18111" />
-        <item itemvalue="Gradle.JavaSolution [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +191,8 @@
       <workItem from="1672668444975" duration="3118000" />
       <workItem from="1672725185255" duration="6240000" />
       <workItem from="1673075341414" duration="608000" />
-      <workItem from="1673245185021" duration="200000" />
+      <workItem from="1673245185021" duration="4245000" />
+      <workItem from="1673276516701" duration="13896000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -220,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672732669635</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="미로탈출 완료">
+      <created>1673245399889</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673245399889</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +243,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="마인크래프트 / 백트래킹 7번 완료" />
     <MESSAGE value="DSLR 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSLR 완료" />
+    <MESSAGE value="미로탈출 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="미로탈출 완료" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
