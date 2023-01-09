@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="마인크래프트 / 백트래킹 7번 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test9019.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="DSLR 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test2178.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +195,9 @@
       <workItem from="1672648428944" duration="215000" />
       <workItem from="1672648650766" duration="5188000" />
       <workItem from="1672668444975" duration="3118000" />
-      <workItem from="1672725185255" duration="6213000" />
+      <workItem from="1672725185255" duration="6240000" />
+      <workItem from="1673075341414" duration="608000" />
+      <workItem from="1673245185021" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -211,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672671931478</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DSLR 완료">
+      <created>1672732669635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672732669635</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +240,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="마인크래프트 / 백트래킹 7번 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="마인크래프트 / 백트래킹 7번 완료" />
+    <MESSAGE value="DSLR 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSLR 완료" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
