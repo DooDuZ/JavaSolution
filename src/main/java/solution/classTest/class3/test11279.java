@@ -54,7 +54,6 @@ class maxHeap {
         list.remove(list.size()-1);
 
         int index = 1;
-
         while(true){
             if(index*2>list.size()-1){
                 break;
@@ -62,11 +61,13 @@ class maxHeap {
             int parent = list.get(index);
             int child = list.get(index*2);
             int childIndex = index*2;
-            if(index*2+1<list.size()-1){
-                child = Math.max(list.get(index*2+1), child);
-                childIndex = index*2+1;
+            if(childIndex+1<list.size()-1){
+                if(list.get(childIndex+1) > child){
+                    child = list.get(childIndex+1);
+                    childIndex = index*2+1;
+                }
             }
-            if(list.get(index*2)<list.get(index) && list.get(index*2)+1<list.get(index)){
+            if(list.get(childIndex)<list.get(index)){
                 break;
             }
 
@@ -86,6 +87,17 @@ class maxHeap {
 1
 2
 51
+0
+0
+
+9
+1
+2
+3
+4
+0
+0
+0
 0
 0
  */
