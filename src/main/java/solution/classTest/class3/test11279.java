@@ -56,22 +56,36 @@ class maxHeap {
         int index = 1;
 
         while(true){
-            if(index*2>list.size()-1 || list.get(index*2)<list.get(index)){
+            if(index*2>list.size()-1){
                 break;
             }
             int parent = list.get(index);
             int child = list.get(index*2);
+            int childIndex = index*2;
             if(index*2+1<list.size()-1){
                 child = Math.max(list.get(index*2+1), child);
+                childIndex = index*2+1;
             }
+            if(list.get(index*2)<list.get(index) && list.get(index*2)+1<list.get(index)){
+                break;
+            }
+
             list.set(index, child);
-            list.set(index*2, parent);
-            index *= 2;
+            list.set(childIndex, parent);
+            index *= childIndex;
         }
         return pop;
     }
-
-    int peek(){
-        return list.get(1);
-    }
 }
+
+/*
+8
+100
+50
+75
+1
+2
+51
+0
+0
+ */
