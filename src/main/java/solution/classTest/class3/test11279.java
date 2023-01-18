@@ -11,11 +11,13 @@ public class test11279 {
         StringBuilder sb = new StringBuilder();
         int T = Integer.parseInt(br.readLine());
 
-        maxHeap heap = new maxHeap();
+        MaxHeap heap = new MaxHeap();
         for(int i = 0 ; i<T; i++){
             int value = Integer.parseInt(br.readLine());
             if(value==0){
-                sb.append(heap.pop()).append("\n");
+                int pop = 0;
+                if(!heap.isEmpty()){ pop = heap.pop();}
+                sb.append(pop).append("\n");
             }else{
                 heap.add(value);
             }
@@ -24,58 +26,57 @@ public class test11279 {
     }
 }
 
-class maxHeap {
+class MaxHeap{
     ArrayList<Integer> list = new ArrayList<>();
-    maxHeap(){
+    MaxHeap(){
         list.add(0);
     }
-
-    void add(int value){
-        list.add(value);
+    void add(int num){
+        list.add(num);
         int index = list.size()-1;
-        while(true){
+        while(index>1 && list.get(index/2)<num){
             int parent = list.get(index/2);
-            if(parent < 1 || value<parent){
-                break;
-            }
             list.set(index, parent);
-            list.set(index/2, value);
+            list.set(index/2, num);
             index /= 2;
         }
     }
-    int pop(){
-        if(list.size()==1){
-            return 0;
-        }
-        int pop = list.get(1);
-        int last = list.get(list.size()-1);
 
-        list.set(1, last);
+    int pop(){
+        int max = list.get(1);
+        int value = list.get(list.size()-1);
+        list.set(1, value);
         list.remove(list.size()-1);
 
         int index = 1;
-        while(true){
-            if(index*2>list.size()-1){
-                break;
-            }
-            int parent = list.get(index);
+        while(index<list.size()-1){
+            if(index*2>list.size()-1){ break; }
             int child = list.get(index*2);
             int childIndex = index*2;
-            if(childIndex+1<list.size()-1){
-                if(list.get(childIndex+1) > child){
-                    child = list.get(childIndex+1);
+            if(index*2+1<list.size()-1){
+                if(child<list.get(index*2+1)){
+                    child = list.get(index*2+1);
                     childIndex = index*2+1;
                 }
             }
-            if(list.get(childIndex)<list.get(index)){
+            if(value<child){
+                list.set(childIndex, value);
+                list.set(index, child);
+                index = childIndex;
+            }else{
                 break;
             }
-
-            list.set(index, child);
-            list.set(childIndex, parent);
-            index *= childIndex;
         }
-        return pop;
+        return max;
+    }
+    boolean isEmpty(){
+        if(list.size()==1){
+            return true;
+        }
+        return false;
+    }
+    int size(){
+        return list.size()-1;
     }
 }
 
