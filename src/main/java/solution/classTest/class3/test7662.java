@@ -3,6 +3,7 @@ package solution.classTest.class3;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
@@ -56,4 +57,35 @@ public class test7662 {
         }
         System.out.println(sb);
     }
+}
+
+class MaxHeap{
+    ArrayList<Integer> list = new ArrayList<>();
+
+    MaxHeap(){
+        list.add(0);
+    }
+
+    void add(int num){
+        list.add(num);
+        int index = list.size()-1;
+        while(index>1 && list.get(index/2)>num){
+            int parent = list.get(index/2);
+            list.set(index, parent);
+            list.set(index/2, num);
+        }
+    }
+
+    void pop(){
+        int value = list.get(1);
+        int last = list.get(list.size()-1);
+        list.set(1, last);
+        list.remove(list.size()-1);
+
+        int index = 1;
+        while(index<list.size()-1){
+
+        }
+    }
+
 }

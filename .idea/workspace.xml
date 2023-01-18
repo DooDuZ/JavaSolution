@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class3 획득 / 쿼드트리, DFS와BFS, 동전0 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test11279_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test7662.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-14__1_55___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-14__1_55___.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test11279.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test11279.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test7662.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test7662.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +203,8 @@
       <workItem from="1673545295485" duration="1675000" />
       <workItem from="1673795181378" duration="57000" />
       <workItem from="1673795247895" duration="4615000" />
+      <workItem from="1674043440264" duration="199000" />
+      <workItem from="1674043654183" duration="4495000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
