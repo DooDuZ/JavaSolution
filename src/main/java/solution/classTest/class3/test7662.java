@@ -73,7 +73,7 @@ class DoubleHeap{
 
         int index = 1;
         while(index<list.size()-1){
-            if(index*2>list.size()-1){ break; }
+            if(index*2>=list.size()-1){ break; }
             int child = list.get(index*2);
             int childIndex = index*2;
             if(index*2+1<list.size()-1){
