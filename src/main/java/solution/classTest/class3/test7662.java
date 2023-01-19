@@ -15,29 +15,33 @@ public class test7662 {
 
         int T = Integer.parseInt(br.readLine());
 
-        for(int i = 0 ; i<T; i++){
+        for (int i = 0; i < T; i++) {
             int row = Integer.parseInt(br.readLine());
             maxHeap = new DoubleHeap();
-            for(int j = 0 ; j<row; j++){
+            for (int j = 0; j < row; j++) {
                 st = new StringTokenizer(br.readLine());
                 String command = st.nextToken();
                 int value = Integer.parseInt(st.nextToken());
-                if(command.equals("I")){
+                if (command.equals("I")) {
                     maxHeap.add(value);
-                }else{
-                    if(maxHeap.isEmpty()){
+                } else {
+                    if (maxHeap.isEmpty()) {
                         continue;
                     }
-                    if(value == 1){
-                        if(maxHeap.size()!=0) { maxHeap.pop(); }
-                    }else{
-                        if(maxHeap.size()!=0){ maxHeap.popLast(); }
+                    if (value == 1) {
+                        if (maxHeap.size() != 0) {
+                            maxHeap.pop();
+                        }
+                    } else {
+                        if (maxHeap.size() != 0) {
+                            maxHeap.popLast();
+                        }
                     }
                 }
             }
-            if(maxHeap.isEmpty()){
+            if (maxHeap.isEmpty()) {
                 sb.append("EMPTY").append("\n");
-            }else{
+            } else {
                 sb.append(maxHeap.peek()).append(" ").append(maxHeap.popLast()).append("\n");
             }
             System.out.println(maxHeap.list.toString());
@@ -45,7 +49,6 @@ public class test7662 {
         System.out.println(sb);
     }
 }
-
 class DoubleHeap{
     ArrayList<Integer> list = new ArrayList<>();
     DoubleHeap(){
@@ -62,7 +65,6 @@ class DoubleHeap{
         }
         System.out.println(list.toString());
     }
-
     int pop(){
         int max = list.get(1);
         int value = list.get(list.size()-1);

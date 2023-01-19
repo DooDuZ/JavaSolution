@@ -67,6 +67,7 @@ class MaxHeap{
                 break;
             }
         }
+        System.out.println(list.toString());
         return max;
     }
     boolean isEmpty(){
@@ -74,9 +75,6 @@ class MaxHeap{
             return true;
         }
         return false;
-    }
-    int size(){
-        return list.size()-1;
     }
 }
 
