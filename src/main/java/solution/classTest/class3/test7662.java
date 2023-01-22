@@ -11,13 +11,13 @@ public class test7662 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         StringTokenizer st;
-        DoubleHeap maxHeap;
+        MaximumHeap maxHeap;
 
         int T = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < T; i++) {
             int row = Integer.parseInt(br.readLine());
-            maxHeap = new DoubleHeap();
+            maxHeap = new MaximumHeap();
             for (int j = 0; j < row; j++) {
                 st = new StringTokenizer(br.readLine());
                 String command = st.nextToken();
@@ -49,9 +49,9 @@ public class test7662 {
         System.out.println(sb);
     }
 }
-class DoubleHeap{
+class MaximumHeap{
     ArrayList<Integer> list = new ArrayList<>();
-    DoubleHeap(){
+    MaximumHeap(){
         list.add(0);
     }
     void add(int num){
