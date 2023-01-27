@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class3 획득 / 쿼드트리, DFS와BFS, 동전0 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_8.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="이중 우선순위 큐 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test2667.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +106,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\main\java\solution\levelTest\level12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test17_8">
+  <component name="RunManager" selected="Application.test2667">
     <configuration name="test17_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.levelTest.level17.test17_6" />
       <module name="JavaSolution.main" />
@@ -144,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test7662" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test7662" />
+    <configuration name="test17_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.levelTest.level17.test17_9" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class3.*" />
+          <option name="PATTERN" value="solution.levelTest.level17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,8 +159,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test7662_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test7662_2" />
+    <configuration name="test2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test2667" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -172,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test2667" />
+        <item itemvalue="Application.test17_9" />
         <item itemvalue="Application.test17_8" />
         <item itemvalue="Application.test17_7" />
         <item itemvalue="Application.test17_6" />
-        <item itemvalue="Application.test7662_2" />
-        <item itemvalue="Application.test7662" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +220,7 @@
       <workItem from="1674658851192" duration="9869000" />
       <workItem from="1674730259501" duration="642000" />
       <workItem from="1674732500466" duration="6548000" />
+      <workItem from="1674846779163" duration="6030000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
