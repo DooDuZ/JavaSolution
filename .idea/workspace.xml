@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="이중 우선순위 큐 완료">
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="level17 dp 쉬운계단수 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test1780.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_6.java" root0="FORCE_HIGHLIGHTING" />
@@ -104,13 +105,13 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\main\java\solution\levelTest\level12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test17_9">
-    <configuration name="test17_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.levelTest.level17.test17_6" />
+  <component name="RunManager" selected="Application.test1780">
+    <configuration name="test1780" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test1780" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.levelTest.level17.*" />
+          <option name="PATTERN" value="solution.classTest.class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test1780" />
         <item itemvalue="Application.test2667" />
         <item itemvalue="Application.test17_9" />
         <item itemvalue="Application.test17_8" />
         <item itemvalue="Application.test17_7" />
-        <item itemvalue="Application.test17_6" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +221,7 @@
       <workItem from="1674732500466" duration="6548000" />
       <workItem from="1674846779163" duration="6030000" />
       <workItem from="1675101570878" duration="628000" />
-      <workItem from="1675103166530" duration="4267000" />
+      <workItem from="1675103166530" duration="7238000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -271,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673701857632</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="level17 dp 쉬운계단수 완료">
+      <created>1675114443512</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675114443512</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +304,8 @@
     <MESSAGE value="class3 획득 / 쿼드트리, DFS와BFS, 동전0 완료" />
     <MESSAGE value="백트래킹 스타트와 링크 완료" />
     <MESSAGE value="level 17 3-5 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="level 17 3-5 완료" />
+    <MESSAGE value="level17 dp 쉬운계단수 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="level17 dp 쉬운계단수 완료" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
