@@ -5,36 +5,34 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class test17_9 {
-    static Integer[][] dp;
+    static int N;
+    static int[] arr;
+    static Integer[] dp;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int N = Integer.parseInt(br.readLine());
-        dp = new Integer[N+1][10];
-        dp[1][0] = 0;
-        for(int i = 1 ; i < 10 ; i++){
-            dp[1][i] = 1;
+        N = Integer.parseInt(br.readLine());
+        arr = new int[N+1];
+        dp = new Integer[N+1];
+
+        for(int i = 1 ; i<=N; i++){
+            arr[i] = Integer.parseInt(br.readLine());
         }
 
-        long answer = 0;
+        dp[0] = arr[0];
+        dp[1] = arr[1];
 
-        for (int i = 0; i<=9; i++){
-            answer += counting( N, i );
+        if(N>=2){
+            dp[2] = arr[1] + arr[2];
         }
 
-        System.out.println(answer % 1000000000);
+        System.out.println(upStair(N));
     }
 
-    public static int counting(int length, int number){
-        if(dp[length][number]==null){
-            if(number==0) {
-                dp[length][number] = counting(length-1, 1) % 1000000000 ;
-            }else if(number==9){
-                dp[length][number] = counting(length-1, 8) % 1000000000 ;
-            }else{
-                dp[length][number] = ( counting(length-1, number-1) + counting(length-1, number+1) ) % 1000000000 ;
-            }
+    public static int upStair( int floor ){
+        if(dp[floor]==null){
+            dp[floor] = Math.max(upStair(floor-2), (upStair(floor-3) + arr[floor-1]) ) + arr[floor];
         }
-        return dp[length][number];
+        return dp[floor];
     }
 }
