@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class3 연결 요소의 개수 / 색종이 만들기 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_11.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class3 케빈베이컨의 6단계 법칙 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test1289.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test1389.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +105,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\main\java\solution\levelTest\level12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test1389">
+  <component name="RunManager" selected="Application.test17_11">
     <configuration name="test1389" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test1389" />
       <module name="JavaSolution.main" />
@@ -149,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test17_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.levelTest.level17.test17_9" />
+    <configuration name="test17_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.levelTest.level17.test17_11" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -177,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test17_11" />
         <item itemvalue="Application.test1389" />
         <item itemvalue="Application.test1780" />
         <item itemvalue="Application.test2667" />
         <item itemvalue="Application.test17_10" />
-        <item itemvalue="Application.test17_9" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +222,9 @@
       <workItem from="1674846779163" duration="6030000" />
       <workItem from="1675101570878" duration="628000" />
       <workItem from="1675103166530" duration="7238000" />
-      <workItem from="1675629741555" duration="6193000" />
+      <workItem from="1675629741555" duration="6815000" />
+      <workItem from="1675818037695" duration="182000" />
+      <workItem from="1675883132049" duration="6640000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -284,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675114443512</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="class3 케빈베이컨의 6단계 법칙 완료">
+      <created>1675635951156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675635951156</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +315,8 @@
     <MESSAGE value="백트래킹 스타트와 링크 완료" />
     <MESSAGE value="level 17 3-5 완료" />
     <MESSAGE value="level17 dp 쉬운계단수 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="level17 dp 쉬운계단수 완료" />
+    <MESSAGE value="class3 케빈베이컨의 6단계 법칙 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="class3 케빈베이컨의 6단계 법칙 완료" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
