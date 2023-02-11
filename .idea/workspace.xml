@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="level17 포도주 시식 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test1541.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test2606.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test5430.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test16236.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +108,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test5430">
+  <component name="RunManager" selected="Application.test16236">
     <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tester" />
       <module name="JavaSolution.test" />
@@ -131,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test17_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.levelTest.level17.test17_11" />
+    <configuration name="test16236" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test16236" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.levelTest.level17.*" />
+          <option name="PATTERN" value="solution.classTest.class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test16236" />
         <item itemvalue="Application.test5430" />
         <item itemvalue="Application.test2606" />
         <item itemvalue="Application.test1541" />
         <item itemvalue="Application.Tester" />
-        <item itemvalue="Application.test17_11" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +225,8 @@
       <workItem from="1675993862540" duration="13967000" />
       <workItem from="1676010373878" duration="373000" />
       <workItem from="1676017568108" duration="2630000" />
+      <workItem from="1676071700913" duration="180000" />
+      <workItem from="1676072394986" duration="8693000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
