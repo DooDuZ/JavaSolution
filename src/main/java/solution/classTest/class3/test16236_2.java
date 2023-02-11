@@ -64,39 +64,35 @@ public class test16236_2{
         bfs();
 
         System.out.println(count);
-
-        for(int i = 0 ; i<N; i++){
-            for(int j = 0; j<N; j++){
-                System.out.print(cellBox.get(i).get(j).fish+" ");
-            }
-            System.out.println();
-        }
     }
 
     static void bfs(){
         if(queue.isEmpty()){
+            if(!sameDistance.isEmpty()){
+                eatFish(currentTime);
+            }
             return;
         }
+/*
 
-        System.out.println("돌아용");
         System.out.println(queue.peek().toString());
         System.out.println("현재 셀의 물고기 크기 : " + queue.peek().cell.fish);
         System.out.println("현재 시점의 상어 크기 : " + sharkSize);
+*/
 
         CellWrapper cellWrapper = queue.pop();
         Cell cell = cellWrapper.cell;
 
         int time = cellWrapper.time;
 
-        System.out.println("현재 시간 : "+currentTime);
+        // System.out.println("현재 시간 : "+currentTime);
         if (time>currentTime){
             currentTime = time;
 
-            System.out.println("입장해유 : "+sameDistance.toString());
+            // System.out.println("입장해유 : "+sameDistance.toString());
 
             if(!sameDistance.isEmpty()){
-                eatFish(time);
-                bfs();
+                eatFish(time-1);    // 같은 거리 cell의 push가 끝난 뒤, time+1 상태에서 물고기를 먹으러 가므로 -1
                 return;
             }
         }
@@ -129,7 +125,7 @@ public class test16236_2{
             return e1.row-e2.row;
         });
 
-        System.out.println("같은 거리 모음 : " + sameDistance.toString());
+        // System.out.println("같은 거리 모음 : " + sameDistance.toString());
 
         Cell cell = sameDistance.pop();
 
@@ -157,11 +153,26 @@ public class test16236_2{
             sameDistance.clear();
             currentTime = 0;
 
+            System.out.println();
+            for(int i = 0 ; i<N; i++){
+                for(int j = 0; j<N; j++){
+                    if (i==row && j==col){
+                        System.out.print("* ");
+                    }else{
+                        System.out.print(cellBox.get(i).get(j).fish+" ");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
             System.out.println("새 출발점은 " + row + "," + col + "입니다.");
             System.out.println("상어의 크기는 " + sharkSize + "입니다.");
             System.out.println("현재 먹이의 개수는 " + eatCount + "입니다.");
-            System.out.println(queue.peek().cell.cellList.toString()+"의 순서로 출발합니다.");
+            // System.out.println(queue.peek().cell.cellList.toString()+"의 순서로 출발합니다.");
+            System.out.println("추가된 시간은 : "+time + "입니다.");
+            System.out.println("현재까지 걸린 시간은 : "+count + "입니다.");
         }
+        bfs();
     }
 }
 
@@ -214,4 +225,60 @@ class CellWrapper{
 0 0 1
 0 0 0
 0 9 0
+
+7
+3 5 0 6 4 5 5
+1 6 3 3 0 2 2
+6 2 1 3 1 5 1
+9 2 2 3 4 2 3
+2 1 6 2 0 0 4
+4 5 0 6 1 1 0
+5 4 3 2 1 4 0
+
+
+7
+3 5 0 6 4 5 5
+1 6 3 3 0 2 2
+6 2 * 3 1 5 1
+9 2 2 3 4 2 3
+2 * 6 2 0 0 4
+4 5 0 6 1 1 0
+5 4 3 2 1 4 0
+
+10
+5 3 2 0 0 1 2 0 4 0
+3 0 3 1 0 0 3 0 6 1
+0 3 0 5 0 5 4 4 2 5
+3 0 0 3 0 6 1 5 4 2
+1 0 2 0 2 0 3 0 0 6
+1 1 1 1 1 1 1 1 0 0
+2 0 2 1 9 6 0 0 4 3
+1 6 1 0 6 0 5 0 1 0
+6 5 4 0 1 2 1 3 5 0
+0 1 6 6 1 4 3 0 1 1
+
+10
+2 0 2 0 1 1 1 0 1 0
+0 4 4 0 4 0 0 0 3 0
+4 3 5 0 1 0 2 6 0 0
+0 0 5 5 3 1 3 1 3 4
+6 0 5 1 4 2 4 0 5 0
+0 0 5 0 2 1 1 2 1 0
+2 0 5 2 4 0 9 1 6 2
+4 1 2 0 3 0 3 2 4 6
+3 0 1 0 4 0 0 5 0 1
+0 4 1 1 6 6 1 6 0 0
+
+
+10
+5 6 3 0 5 5 4 4 3 0
+2 4 0 4 0 1 0 1 0 6
+0 3 4 1 0 0 3 1 1 0
+0 5 1 0 1 6 1 3 5 1
+0 3 0 1 1 0 4 0 1 0
+0 5 1 5 6 0 3 4 0 9
+0 5 5 3 0 0 4 5 0 3
+2 5 0 3 3 2 0 0 3 2
+2 6 5 0 0 4 1 1 6 3
+1 3 1 3 0 1 0 0 0 5
  */

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class3 아기상어 진행중">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test16236_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test5430_2.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class3 바이러스 (완료)  / 잃어버린 괄호 (완료) / AC(진행중)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test16236.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test16236.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test16236_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test16236_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,6 +230,7 @@
       <workItem from="1675883132049" duration="6676000" />
       <workItem from="1675993862540" duration="13967000" />
       <workItem from="1676010373878" duration="373000" />
+      <workItem from="1676017568108" duration="2709000" />
       <workItem from="1676017568108" duration="2630000" />
       <workItem from="1676071700913" duration="180000" />
       <workItem from="1676072394986" duration="8725000" />
@@ -342,6 +341,7 @@
     <MESSAGE value="level17 dp 쉬운계단수 완료" />
     <MESSAGE value="class3 케빈베이컨의 6단계 법칙 완료" />
     <MESSAGE value="level17 포도주 시식 완료" />
+    <MESSAGE value="class3 바이러스 (완료)  / 잃어버린 괄호 (완료) / AC(진행중)" />
     <MESSAGE value="class3 아기상어 진행중" />
     <option name="LAST_COMMIT_MESSAGE" value="class3 아기상어 진행중" />
   </component>
