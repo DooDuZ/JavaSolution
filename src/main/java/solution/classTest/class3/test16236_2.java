@@ -1,31 +1,30 @@
 package solution.classTest.class3;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 
-// ULRD 순서로 찾고 해결하기
-    // 이렇게 풀면 안된다고 한다... 아이고...
-public class test16236 {
-
+// ULRD -> 전체 탐색 후 진행으로 변경
+public class test16236_2{
     static ArrayList<ArrayList<Cell>> cellBox = new ArrayList<>();
     static LinkedList<CellWrapper> queue = new LinkedList<>();
 
-    static boolean[][] visited;
+    static LinkedList<Cell> sameDistance = new LinkedList<>();
 
+    static boolean[][] visited;
     static int row;
     static int col;
-
     static int N;
-
     static int count = 0;
-
     static int eatCount = 0;
     static int sharkSize = 2;
+
+    static int currentTime = 1;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -81,13 +80,60 @@ public class test16236 {
 
         System.out.println("돌아용");
         System.out.println(queue.peek().toString());
+        System.out.println("현재 셀의 물고기 크기 : " + queue.peek().cell.fish);
+        System.out.println("현재 시점의 상어 크기 : " + sharkSize);
 
         CellWrapper cellWrapper = queue.pop();
         Cell cell = cellWrapper.cell;
 
         int time = cellWrapper.time;
 
-        if (cell.fish>sharkSize && cell.fish!=9){ return; }
+        System.out.println("현재 시간 : "+currentTime);
+        if (time>currentTime){
+            currentTime = time;
+
+            System.out.println("입장해유 : "+sameDistance.toString());
+
+            if(!sameDistance.isEmpty()){
+                eatFish(time);
+                bfs();
+                return;
+            }
+        }
+
+        if (cell.fish>sharkSize && cell.fish!=9){
+            bfs();
+            return;
+        }
+
+        if (cell.fish!=0 && cell.fish<sharkSize){
+            sameDistance.add(cell);
+        }
+
+        for(int i = 0; i<cell.cellList.size(); i++){
+            Cell nextCell = cell.cellList.get(i);
+            if(!visited[nextCell.row][nextCell.col] && (nextCell.fish<=sharkSize || nextCell.fish==9)){
+                visited[nextCell.row][nextCell.col] = true;
+                queue.add(new CellWrapper( time+1 , nextCell));
+            }
+        }
+
+        bfs();
+    }
+
+    static void eatFish(int time){
+        Collections.sort(sameDistance, (e1, e2)->{
+            if(e2.row==e1.row){
+                return e1.col-e2.col;
+            }
+            return e1.row-e2.row;
+        });
+
+        System.out.println("같은 거리 모음 : " + sameDistance.toString());
+
+        Cell cell = sameDistance.pop();
+
+        // 먹는 부분
         if (cell.fish!= 0 && cell.fish<sharkSize){
             cellBox.get(cell.row).get(cell.col).fish = 0;
             count += time;
@@ -108,28 +154,17 @@ public class test16236 {
             queue = new LinkedList<>();
             queue.add(new CellWrapper(0, cell));
 
+            sameDistance.clear();
+            currentTime = 0;
+
             System.out.println("새 출발점은 " + row + "," + col + "입니다.");
             System.out.println("상어의 크기는 " + sharkSize + "입니다.");
             System.out.println("현재 먹이의 개수는 " + eatCount + "입니다.");
             System.out.println(queue.peek().cell.cellList.toString()+"의 순서로 출발합니다.");
-
-            bfs();
-
-            return;
         }
-
-        for(int i = 0; i<cell.cellList.size(); i++){
-            Cell nextCell = cell.cellList.get(i);
-            if(!visited[nextCell.row][nextCell.col] && (nextCell.fish<=sharkSize || nextCell.fish==9)){
-                visited[nextCell.row][nextCell.col] = true;
-                queue.add(new CellWrapper( time+1 , nextCell));
-            }
-        }
-
-        bfs();
     }
 }
-/*
+
 class Cell{
     int row;
     int col;
@@ -165,5 +200,18 @@ class CellWrapper{
                 '}';
     }
 }
+/*
+6
+5 4 3 2 3 4
+4 3 2 3 4 5
+3 2 9 5 6 6
+2 1 2 3 4 5
+3 2 1 6 5 4
+6 6 6 6 6 6
 
+
+3
+0 0 1
+0 0 0
+0 9 0
  */
