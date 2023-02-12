@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class3 바이러스 (완료)  / 잃어버린 괄호 (완료) / AC(진행중)">
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class3 아기상어야 밥좀 그만먹어라.,.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test16236_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test16236_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test16236_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test16236_2">
+  <component name="RunManager" selected="Application.test16236_3">
     <configuration name="test16236" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test16236" />
       <module name="JavaSolution.main" />
@@ -135,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test2606" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test2606" />
+    <configuration name="test16236_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test16236_3" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test16236_3" />
         <item itemvalue="Application.test16236_2" />
         <item itemvalue="Application.test5430_2" />
         <item itemvalue="Application.test16236" />
         <item itemvalue="Application.test5430" />
-        <item itemvalue="Application.test2606" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +235,9 @@
       <workItem from="1676071700913" duration="180000" />
       <workItem from="1676072394986" duration="8725000" />
       <workItem from="1676082665814" duration="8748000" />
+      <workItem from="1676162762445" duration="3561000" />
+      <workItem from="1676166340889" duration="419000" />
+      <workItem from="1676166762861" duration="3714000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -313,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676081126769</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="class3 아기상어야 밥좀 그만먹어라.,.">
+      <created>1676105167793</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676105167793</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +353,8 @@
     <MESSAGE value="level17 포도주 시식 완료" />
     <MESSAGE value="class3 바이러스 (완료)  / 잃어버린 괄호 (완료) / AC(진행중)" />
     <MESSAGE value="class3 아기상어 진행중" />
-    <option name="LAST_COMMIT_MESSAGE" value="class3 아기상어 진행중" />
+    <MESSAGE value="class3 아기상어야 밥좀 그만먹어라.,." />
+    <option name="LAST_COMMIT_MESSAGE" value="class3 아기상어야 밥좀 그만먹어라.,." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
