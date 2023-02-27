@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="programmers 추가">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test10026.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/programmers/test2.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="백준 오랜만... class3 적록색약 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/programmers/level2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/programmers/level2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test10026.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test10026.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +245,7 @@
       <workItem from="1676611751432" duration="579000" />
       <workItem from="1676787979939" duration="5282000" />
       <workItem from="1676971430813" duration="4717000" />
-      <workItem from="1677472018161" duration="1107000" />
+      <workItem from="1677472018161" duration="2270000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -347,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676531909220</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="백준 오랜만... class3 적록색약 완료">
+      <created>1677473375970</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677473375970</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +385,8 @@
     <MESSAGE value="class3 아기상어야 밥좀 그만먹어라.,." />
     <MESSAGE value="class3 아기상어 완료" />
     <MESSAGE value="programmers 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="programmers 추가" />
+    <MESSAGE value="백준 오랜만... class3 적록색약 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 오랜만... class3 적록색약 완료" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -4,22 +4,29 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Map;
 
 public class test10026 {
     static int N;
-    static int[][] board;
+    static char[][] board;
     static boolean[][] visited;
     static LinkedList<Integer[]> queue = new LinkedList<>();
-
     static int block = 0;
+
+    static Map<Character, Integer> pattern = new HashMap<>();
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         N = Integer.parseInt(br.readLine());
-        board = new int[N][N];
+        board = new char[N][N];
         visited = new boolean[N][N];
+
+        pattern.put('R', 1);
+        pattern.put('G', 2);
+        pattern.put('B', 3);
 
         for(int i  = 0 ;i<N; i++){
             String str = br.readLine();
@@ -43,7 +50,7 @@ public class test10026 {
         for(int i = 0; i<N; i++) {
             Arrays.fill(visited[i], false);
         }
-
+/*
         for(int i = 0 ; i<N; i++){
             for(int j = 0 ; j<N; j++){
                 if(board[i][j]=='R'){
@@ -51,6 +58,9 @@ public class test10026 {
                 }
             }
         }
+*/
+
+        pattern.put('R', pattern.get('G'));
 
         for(int i = 0 ; i<N; i++){
             for(int j = 0 ; j<N; j++){
@@ -77,22 +87,22 @@ public class test10026 {
         int row = arr[0];
         int col = arr[1];
 
-        if( row-1>=0 && !visited[row-1][col] && board[row-1][col] == board[row][col] ){
+        if( row-1>=0 && !visited[row-1][col] && pattern.get( board[row-1][col]) == pattern.get(board[row][col]) ){
             visited[row-1][col] = true;
             queue.add( new Integer[]{row-1, col} );
         }
 
-        if( row+1<N && !visited[row+1][col] && board[row+1][col] == board[row][col] ){
+        if( row+1<N && !visited[row+1][col] && pattern.get(board[row+1][col]) == pattern.get(board[row][col]) ){
             visited[row+1][col] = true;
             queue.add( new Integer[]{row+1, col} );
         }
 
-        if( col-1>=0 && !visited[row][col-1] && board[row][col-1] == board[row][col] ){
+        if( col-1>=0 && !visited[row][col-1] && pattern.get(board[row][col-1]) == pattern.get(board[row][col]) ){
             visited[row][col-1] = true;
             queue.add( new Integer[]{row, col-1} );
         }
 
-        if( col+1<N && !visited[row][col+1] && board[row][col+1] == board[row][col] ){
+        if( col+1<N && !visited[row][col+1] && pattern.get(board[row][col+1]) == pattern.get(board[row][col]) ){
             visited[row][col+1] = true;
             queue.add( new Integer[]{row, col+1} );
         }
