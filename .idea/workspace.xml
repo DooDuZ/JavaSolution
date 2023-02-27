@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class3 아기상어 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test14500.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/programmers/Kakao2019_Muzi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/programmers/level2Test.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="programmers 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test10026.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/programmers/test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/programmers/level2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/programmers/level2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.level2Test">
+  <component name="RunManager" selected="Application.test10026">
     <configuration name="Kakao2019_Muzi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.programmers.Kakao2019_Muzi" />
       <module name="JavaSolution.main" />
@@ -124,19 +124,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="JavaSolution.test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="level2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.programmers.level2Test" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="solution.programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test10026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test10026" />
+      <module name="JavaSolution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.classTest.class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test16236_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test16236_3" />
+    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.programmers.test2" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class3.*" />
+          <option name="PATTERN" value="solution.programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test10026" />
+        <item itemvalue="Application.test2" />
         <item itemvalue="Application.level2Test" />
         <item itemvalue="Application.test14500" />
         <item itemvalue="Application.Kakao2019_Muzi" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.test16236_3" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +243,11 @@
       <workItem from="1676265819849" duration="618000" />
       <workItem from="1676423908463" duration="26012000" />
       <workItem from="1676520252730" duration="4763000" />
-      <workItem from="1676526477051" duration="3159000" />
+      <workItem from="1676526477051" duration="3189000" />
+      <workItem from="1676611751432" duration="579000" />
+      <workItem from="1676787979939" duration="5282000" />
+      <workItem from="1676971430813" duration="4717000" />
+      <workItem from="1677472018161" duration="1107000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -330,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676171438711</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="programmers 추가">
+      <created>1676531909218</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676531909220</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +379,8 @@
     <MESSAGE value="class3 아기상어 진행중" />
     <MESSAGE value="class3 아기상어야 밥좀 그만먹어라.,." />
     <MESSAGE value="class3 아기상어 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="class3 아기상어 완료" />
+    <MESSAGE value="programmers 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="programmers 추가" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
