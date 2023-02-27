@@ -14,7 +14,6 @@ public class test10026 {
     static boolean[][] visited;
     static LinkedList<Integer[]> queue = new LinkedList<>();
     static int block = 0;
-
     static Map<Character, Integer> pattern = new HashMap<>();
 
     public static void main(String[] args) throws IOException {
