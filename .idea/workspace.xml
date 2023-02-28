@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="백준 오랜만... class3 적록색약 완료 / 적록색약 패턴 추가">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test16928.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="백준 오랜만... class3 뱀과 사다리게임 진행중">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test16928_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test10026.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test10026.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test16928">
+  <component name="RunManager" selected="Application.test16928_2">
     <configuration name="level2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.programmers.level2Test" />
       <module name="JavaSolution.main" />
@@ -136,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test14500" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test14500" />
+    <configuration name="test16928" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test16928" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test16928" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test16928" />
+    <configuration name="test16928_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test16928_2" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -177,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test16928_2" />
         <item itemvalue="Application.test16928" />
         <item itemvalue="Application.test10026" />
         <item itemvalue="Application.test2" />
         <item itemvalue="Application.level2Test" />
-        <item itemvalue="Application.test14500" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +245,8 @@
       <workItem from="1676611751432" duration="579000" />
       <workItem from="1676787979939" duration="5282000" />
       <workItem from="1676971430813" duration="4717000" />
-      <workItem from="1677472018161" duration="8826000" />
+      <workItem from="1677472018161" duration="9084000" />
+      <workItem from="1677594639024" duration="5104000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -360,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677474619967</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="백준 오랜만... class3 뱀과 사다리게임 진행중">
+      <created>1677521813940</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677521813940</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +402,8 @@
     <MESSAGE value="programmers 추가" />
     <MESSAGE value="백준 오랜만... class3 적록색약 완료" />
     <MESSAGE value="백준 오랜만... class3 적록색약 완료 / 적록색약 패턴 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 오랜만... class3 적록색약 완료 / 적록색약 패턴 추가" />
+    <MESSAGE value="백준 오랜만... class3 뱀과 사다리게임 진행중" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 오랜만... class3 뱀과 사다리게임 진행중" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
