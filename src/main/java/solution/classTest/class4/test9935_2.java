@@ -28,11 +28,9 @@ public class test9935_2 {
             //System.out.println(stack.toString());
             //System.out.println(queue.size());
 
-            if(queue.size()<lng){
-                queue.add(character);
-            }else{
+            queue.add(character);
+            if(queue.size()>lng){
                 queue.poll();
-                queue.add(character);
             }
 
             if(queue.size()==lng && checkData()){
@@ -52,10 +50,10 @@ public class test9935_2 {
 
                 for(int j = stackSize-1; j>=0; j--){
                     tmp[j] = stack.pop();
-                    queue.add(tmp[j]);
                 }
                 for(int j = 0; j<stackSize; j++){
                     stack.push(tmp[j]);
+                    queue.add(tmp[j]);
                 }
             }
         }

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="백준 오랜만... class3 뱀과 사다리게임 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test9935.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test9935_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test9935_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test9935_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +248,8 @@
       <workItem from="1677472018161" duration="9084000" />
       <workItem from="1677594639024" duration="6341000" />
       <workItem from="1677604605068" duration="1897000" />
-      <workItem from="1677766252690" duration="10444000" />
+      <workItem from="1677766252690" duration="11100000" />
+      <workItem from="1677957242570" duration="945000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -377,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677599948503</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="백준 오랜만... class3 토마토 완료">
+      <created>1677785375480</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677785375480</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +421,8 @@
     <MESSAGE value="백준 오랜만... class3 적록색약 완료 / 적록색약 패턴 추가" />
     <MESSAGE value="백준 오랜만... class3 뱀과 사다리게임 진행중" />
     <MESSAGE value="백준 오랜만... class3 뱀과 사다리게임 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 오랜만... class3 뱀과 사다리게임 완료" />
+    <MESSAGE value="백준 오랜만... class3 토마토 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 오랜만... class3 토마토 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
