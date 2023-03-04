@@ -1,11 +1,12 @@
-package solution.levelTest.level16;
+package solution.levelTest.backtracking;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
+import java.io.IOException;
 
-public class test16_4 {
+public class test16_3 {
+	
 	static int N;
 	static int M;
 	static int[] arr;
@@ -31,17 +32,8 @@ public class test16_4 {
 		System.out.println(sb);
 	}
 	
-	public static void dfs(int depth) {
+	public static void dfs(int depth) {		
 		if(M==depth) {
-			boolean check = true;
-			for(int i=0; i<arr.length-1; i++) {
-				if(arr[i]>arr[i+1]) {
-					check = false;
-				}
-			}
-			if(!check) {
-				return;
-			}
 			for(int tmp : arr) {
 				sb.append(tmp).append(' ');
 			}

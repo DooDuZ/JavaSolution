@@ -5,7 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class4 문자열 폭발 완료">
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test9935_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test9935_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test1043.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/prefixSum/test2559.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level16/test16_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/backtracking/test16_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level16/test16_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/backtracking/test16_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level16/test16_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/backtracking/test16_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level16/test16_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/backtracking/test16_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level16/test16_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/backtracking/test16_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level16/test16_6_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/backtracking/test16_6_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level16/test16_6_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/backtracking/test16_6_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level16/test16_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/backtracking/test16_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level16/test16_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/backtracking/test16_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_5_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_5_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_5_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_5_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +83,7 @@
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/solution/levelTest/level17/test17_6.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_6.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="nr8o8dqe" />
@@ -107,13 +129,13 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test9935_2">
-    <configuration name="test16928" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test16928" />
+  <component name="RunManager" selected="Application.test1043">
+    <configuration name="test1043" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1043" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class3.*" />
+          <option name="PATTERN" value="solution.classTest.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test16928_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test16928_2" />
+    <configuration name="test2559" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.levelTest.prefixSum.test2559" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class3.*" />
+          <option name="PATTERN" value="solution.levelTest.prefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test1043" />
+        <item itemvalue="Application.test2559" />
         <item itemvalue="Application.test9935_2" />
         <item itemvalue="Application.test9935" />
         <item itemvalue="Application.test7569" />
-        <item itemvalue="Application.test16928_2" />
-        <item itemvalue="Application.test16928" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +270,7 @@
       <workItem from="1677594639024" duration="6341000" />
       <workItem from="1677604605068" duration="1897000" />
       <workItem from="1677766252690" duration="11100000" />
-      <workItem from="1677957242570" duration="1578000" />
+      <workItem from="1677957242570" duration="5808000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -390,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677958202148</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="class4 문자열 폭발 완료">
+      <created>1677958943005</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1677958943005</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

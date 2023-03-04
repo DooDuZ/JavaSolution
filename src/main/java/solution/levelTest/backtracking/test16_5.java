@@ -1,4 +1,4 @@
-package solution.levelTest.level16;
+package solution.levelTest.backtracking;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

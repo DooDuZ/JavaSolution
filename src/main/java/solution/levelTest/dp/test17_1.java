@@ -1,4 +1,4 @@
-package solution.levelTest.level17;
+package solution.levelTest.dp;
 
 import java.util.Scanner;
 
