@@ -4,15 +4,18 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.StringTokenizer;
 
+// 모든 정점을 순회할 경우 시간초과
+    // 1. 임의의 한 노드에서 가장 먼 노드 찾기
+    // 2. 해당 노드에서 가장 먼 노드까지의 거리 = 트리의 지름
 public class test1167 {
-
     static ArrayList<TreeNode> nodeList = new ArrayList<>();
     static boolean[] visited;
-
     static int maximum = Integer.MIN_VALUE;
-
+    static int endNode = 0;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
@@ -45,31 +48,43 @@ public class test1167 {
             }
         }
 
-        for(int i = 0 ; i<nodeList.size(); i++){
-            if(!visited[i]){
-                visited[i] = true;
-                dfs(0, nodeList.get(i));
-                visited[i] = false;
-            }
-        }
+        Collections.sort(nodeList, (e1,e2)->{
+            return e1.idx - e2.idx;
+        });
+
+        // System.out.println(nodeList.toString());
+
+        // System.out.println("시작노드는 " + endNode);
+        visited[endNode] = true;
+        dfs(0, nodeList.get(endNode));
+
+        Arrays.fill(visited, false);
+
+        // System.out.println(maximum);
+
+        // System.out.println("시작노드는 " + endNode);
+        visited[endNode] = true;
+        dfs(0, nodeList.get(endNode));
 
         System.out.println(maximum);
     }
 
     public static void dfs(int distance, TreeNode currentNode){
+
+        // System.out.println("방문 노드는 " + currentNode.idx);
+
         boolean isLast = true;
         for(int i = 0 ; i<currentNode.linked.size(); i++){
-            Integer[] arr =  currentNode.linked.get(i);
-            if( !visited[arr[0]] ){
+            Integer[] arr = currentNode.linked.get(i);
+            if(!visited[arr[0]]){
                 isLast = false;
                 visited[arr[0]] = true;
-                TreeNode node = nodeList.get(arr[0]);
-                dfs(distance + arr[1], node);
-                visited[arr[0]] = false;
+                dfs( distance+arr[1], nodeList.get(arr[0]) );
             }
         }
-        if (isLast){
-            maximum = Math.max(maximum, distance);
+        if(isLast && maximum<distance){
+            endNode = currentNode.idx;
+            maximum = distance;
         }
     }
 }
@@ -81,4 +96,53 @@ class TreeNode{
     TreeNode(int idx){
         this.idx = idx;
     }
+
+    @Override
+    public String toString(){
+        return String.valueOf(idx);
+    }
 }
+
+/*
+5
+4 2 4 3 3 5 6 -1
+1 3 2 -1
+2 4 4 -1
+5 4 6 -1
+3 1 2 4 3 -1
+
+4
+1 2 5 3 9 -1
+2 1 5 -1
+3 1 9 4 8 -1
+4 3 8 -1
+
+답 : 22
+
+6
+1 2 3 -1
+2 1 3 5 3 3 5 -1
+3 2 5 4 7 -1
+4 3 7 -1
+5 2 3 6 5 -1
+6 5 5 -1
+
+답 : 20
+
+4
+1 2 7 3 2 -1
+2 1 7 -1
+3 1 2 4 3 -1
+4 3 3 -1
+
+답 : 12
+
+5
+1 2 7 3 2 5 10 -1
+2 1 7 -1
+3 1 2 4 3 -1
+4 3 3 -1
+5 1 10 -1
+
+답 : 17
+ */
