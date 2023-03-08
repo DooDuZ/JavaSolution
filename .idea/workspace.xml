@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class4 이진 검색 트리 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/prefixSum/test11660.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="prefixSum 구간 합 구하기 5 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test2638.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +108,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test11660">
+  <component name="RunManager" selected="Application.test2638">
     <configuration name="test10986" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.levelTest.prefixSum.test10986" />
       <module name="JavaSolution.main" />
@@ -135,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1167" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1167" />
+    <configuration name="test1967" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1967" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -148,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1967" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1967" />
+    <configuration name="test2638" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test2638" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.levelTest.prefixSum.*" />
+          <option name="PATTERN" value="solution.classTest.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test2638" />
         <item itemvalue="Application.test11660" />
         <item itemvalue="Application.test5639" />
         <item itemvalue="Application.test10986" />
         <item itemvalue="Application.test1967" />
-        <item itemvalue="Application.test1167" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +252,7 @@
       <workItem from="1677957242570" duration="6319000" />
       <workItem from="1678043025605" duration="13941000" />
       <workItem from="1678209505609" duration="8979000" />
-      <workItem from="1678297328426" duration="3159000" />
+      <workItem from="1678297328426" duration="11455000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -436,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678218412183</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="prefixSum 구간 합 구하기 5 완료">
+      <created>1678300760146</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678300760146</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="마인크래프트 / 백트래킹 7번 완료" />
     <MESSAGE value="DSLR 완료" />
     <MESSAGE value="미로탈출 완료" />
     <MESSAGE value="class3 획득 / 쿼드트리, DFS와BFS, 동전0 완료" />
@@ -479,7 +485,8 @@
     <MESSAGE value="class4 클래스4 트리의 지름2 완료" />
     <MESSAGE value="level prefixSum / 나머지합 완료" />
     <MESSAGE value="class4 이진 검색 트리 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="class4 이진 검색 트리 완료" />
+    <MESSAGE value="prefixSum 구간 합 구하기 5 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="prefixSum 구간 합 구하기 5 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
