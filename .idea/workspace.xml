@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="level greedy 주유소 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test1753.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class4 최단 경로 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test1629.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/queue/test1021.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,26 +109,13 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test1753">
-    <configuration name="test11404" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test11404" />
+  <component name="RunManager" selected="Application.test1629">
+    <configuration name="test1021" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.levelTest.queue.test1021" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test11404_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test11404_2" />
-      <module name="JavaSolution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.classTest.class4.*" />
+          <option name="PATTERN" value="solution.levelTest.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +136,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test1629" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.levelTest.binarySearch.test1629" />
+      <module name="JavaSolution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.levelTest.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test1753" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1753" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class4.*" />
+          <option name="PATTERN" value="solution.levelTest.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test1629" />
+        <item itemvalue="Application.test1021" />
         <item itemvalue="Application.test1753" />
         <item itemvalue="Application.test13305" />
         <item itemvalue="Application.test25682" />
-        <item itemvalue="Application.test11404_2" />
-        <item itemvalue="Application.test11404" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +257,8 @@
       <workItem from="1678367633809" duration="12676000" />
       <workItem from="1678455128071" duration="2975000" />
       <workItem from="1678477387437" duration="5436000" />
-      <workItem from="1678649444039" duration="16770000" />
+      <workItem from="1678649444039" duration="16808000" />
+      <workItem from="1678738271159" duration="4180000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672646965688</created>
@@ -468,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678485067671</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="class4 최단 경로 완료">
+      <created>1678666792188</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678666792188</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백트래킹 스타트와 링크 완료" />
     <MESSAGE value="level 17 3-5 완료" />
     <MESSAGE value="level17 dp 쉬운계단수 완료" />
     <MESSAGE value="class3 케빈베이컨의 6단계 법칙 완료" />
@@ -511,7 +519,8 @@
     <MESSAGE value="class4 치즈 완료" />
     <MESSAGE value="class4 prefixSum 체스판 다시 칠하기2 완료" />
     <MESSAGE value="level greedy 주유소 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="level greedy 주유소 완료" />
+    <MESSAGE value="class4 최단 경로 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="class4 최단 경로 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
