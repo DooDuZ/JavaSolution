@@ -93,6 +93,10 @@ public class test11404 {
     }
 }
 
+/*
+
+1916번 문제로 이동
+
 class City{
     int cityNo;
     ArrayList<Bus> busList = new ArrayList<>();
@@ -111,3 +115,4 @@ class Bus{
         this.cost = cost;
     }
 }
+*/
