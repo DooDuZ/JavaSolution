@@ -7,7 +7,6 @@ import java.util.StringTokenizer;
 
 public class test11404_2 {
     static Long[][] costChart;
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
