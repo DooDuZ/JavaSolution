@@ -14,7 +14,6 @@ public class test1865 {
     static int M;
     static int W;
     static int[][] costBoard;
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
