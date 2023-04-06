@@ -8,43 +8,53 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-
 // 다익스트라로 재구현
-    // 반드시 완성할 것
+// 반드시 완성할 것
 public class test1238_2 {
+    static class Edge implements Comparable<Edge> { // 간선 class
+        int visit; // 다음 방문 위치
+        int cost; // 비용
+        @Override
+        public int compareTo(Edge o) {
+            return cost-o.cost;
+        }
+
+        Edge(int visit, int cost){
+            this.visit = visit;
+            this.cost = cost;
+        }
+    }
     static final int INF = 1000000000;
     static int N;
     static int M;
     static int X;
-
-    // 인접리스트로 변경 필요
-    // 그렇지 않으면 간선의 개수가 아닌 정점의 개수만큼 계속 탐색하게된다.
-    static int[][] costs;
+    static ArrayList<ArrayList<Edge>> edgeList = new ArrayList<>(); // 정방향 리스트
+    static ArrayList<ArrayList<Edge>> reverseList = new ArrayList<>(); // 역방향 리스트
     static int answer = Integer.MIN_VALUE;
-    static int[] toX;
-    static int[] fromX;
-
-    static PriorityQueue<Integer[]> pq = new PriorityQueue<>( (e1,e2)->{
-        return e1[1]-e2[1];
-    } );
-
+    static int[] toX;   // 파티에 가는 최소 비용
+    static int[] fromX; // 파티에서 돌아오는 최소 비용
+    static PriorityQueue<Edge> pq = new PriorityQueue<>();
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
-        X = Integer.parseInt(st.nextToken());
+        X = Integer.parseInt(st.nextToken())-1;
 
-        costs = new int[N][N];
+        for(int i = 0 ; i<N; i++){
+            edgeList.add(new ArrayList<>());
+            reverseList.add(new ArrayList<>());
+        }
 
         toX = new int[N];
         fromX = new int[N];
 
-        for (int i = 0; i < N; i++) {
-            Arrays.fill(costs[i], INF);
-            costs[i][i] = 0;
-        }
+        // 비용 배열 초기화
+        Arrays.fill(toX, INF);
+        Arrays.fill(fromX, INF);
+        toX[X] = 0;
+        fromX[X] = 0;
 
         for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
@@ -53,23 +63,17 @@ public class test1238_2 {
             int to = Integer.parseInt(st.nextToken()) - 1;
             int cost = Integer.parseInt(st.nextToken());
 
-            costs[from][to] = cost;
+            edgeList.get(from).add(new Edge(to, cost));
+            reverseList.get(to).add(new Edge(from, cost));
         }
 
-        pq.add(new Integer[]{X,0});
-        dijkstra(toX);
+        // 정방향 다익스트라
+        pq.add(new Edge(X, 0));
+        dijkstra(edgeList, toX);
 
-        // 간선 뒤집기
-        for(int i = 0 ; i<N; i++){
-            for(int j = 0 ; j<N; j++){
-                int tmp = costs[i][j];
-                costs[i][j] = costs[j][i];
-                costs[j][i] = tmp;
-            }
-        }
-
-        pq.add(new Integer[]{X,0});
-        dijkstra(fromX);
+        // 역방향 다익스트라
+        pq.add(new Edge(X, 0));
+        dijkstra(reverseList, fromX);
 
         for(int i = 0; i<N; i++){
             answer = Math.max( toX[i] + fromX[i], answer );
@@ -78,9 +82,42 @@ public class test1238_2 {
         System.out.println(answer);
     }
 
-    public static void dijkstra(int[] chart){
+    public static void dijkstra(ArrayList<ArrayList<Edge>> edgeList, int[] chart){
         while(!pq.isEmpty()){
+            Edge curE = pq.poll();
 
+            int cur = curE.visit;
+            int value = curE.cost;
+
+            if(value!=chart[cur]) {continue;}
+
+            ArrayList<Edge> edges = edgeList.get(cur);
+            for(int i = 0 ; i<edges.size(); i++){
+                Edge edge = edges.get(i);
+                int nextValue = edge.cost+value;
+                if(nextValue < chart[edge.visit] ){
+                    chart[edge.visit] = nextValue;
+                    pq.add(new Edge(edge.visit, nextValue));
+                }
+            }
         }
-    };
+    }
 }
+/*
+3 3 2
+1 2 2
+2 3 1
+3 1 5
+return 8
+
+4 8 2
+1 2 4
+1 3 2
+1 4 7
+2 1 1
+2 3 5
+3 1 2
+3 4 4
+4 2 3
+return 10
+ */
