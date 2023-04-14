@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class4 웜홀 완료">
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class4 파티 다익스트라 버전 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test10830.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test1238_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test1238_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,27 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test1238_2">
+  <component name="RunManager" selected="Application.test10830">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="JavaSolution.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test10830" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test10830" />
+      <module name="JavaSolution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.classTest.class4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test1238" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1238" />
       <module name="JavaSolution.main" />
@@ -135,19 +156,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test12851" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test12851" />
-      <module name="JavaSolution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.classTest.class4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test1865" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1865" />
       <module name="JavaSolution.main" />
@@ -161,26 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1916" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1916" />
-      <module name="JavaSolution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.classTest.class4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test10830" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.test1238_2" />
         <item itemvalue="Application.test1238" />
         <item itemvalue="Application.test1865" />
-        <item itemvalue="Application.test1916" />
-        <item itemvalue="Application.test12851" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680550624747</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="class4 파티 다익스트라 버전 완료">
+      <created>1680798136909</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1680798136909</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="level17 포도주 시식 완료" />
     <MESSAGE value="class3 바이러스 (완료)  / 잃어버린 괄호 (완료) / AC(진행중)" />
     <MESSAGE value="class3 아기상어 진행중" />
     <MESSAGE value="class3 아기상어야 밥좀 그만먹어라.,." />
@@ -543,7 +544,8 @@
     <MESSAGE value="level queue/deque 회전하는 큐 완료, level binarySearch 곱셈 완료" />
     <MESSAGE value="프로그래머스 2023카카오 기출 셀 병합 완료" />
     <MESSAGE value="class4 웜홀 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="class4 웜홀 완료" />
+    <MESSAGE value="class4 파티 다익스트라 버전 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="class4 파티 다익스트라 버전 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
