@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class4 벽 부수고 이동하기 완료 / 프로그래머스 카카오 기출 등산코스 정하기 진행중">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/programmers/Kakao2022_hikingCourse_v2.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="프로그래머스 카카오기출 등산코스 정하기 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test11444.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test11779.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test1504.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +110,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Kakao2022_hikingCourse_v2">
+  <component name="RunManager" selected="Application.test11779">
     <configuration name="Kakao2022_hikingCourse_v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.programmers.Kakao2022_hikingCourse_v2" />
       <module name="JavaSolution.main" />
@@ -122,15 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="JavaSolution.test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test10830" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test10830" />
+    <configuration name="test11444" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test11444" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +137,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test2206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test2206" />
+    <configuration name="test11779" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test11779" />
+      <module name="JavaSolution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.classTest.class4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1504" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1504" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -170,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test11779" />
+        <item itemvalue="Application.test11444" />
+        <item itemvalue="Application.test1504" />
         <item itemvalue="Application.Kakao2022_hikingCourse_v2" />
         <item itemvalue="Application.test2206_2" />
-        <item itemvalue="Application.test2206" />
-        <item itemvalue="Application.test10830" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -515,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682090563482</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="프로그래머스 카카오기출 등산코스 정하기 완료">
+      <created>1682253842727</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682253842727</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class3 아기상어야 밥좀 그만먹어라.,." />
     <MESSAGE value="class3 아기상어 완료" />
     <MESSAGE value="programmers 추가" />
     <MESSAGE value="백준 오랜만... class3 적록색약 완료" />
@@ -558,7 +572,8 @@
     <MESSAGE value="class4 파티 다익스트라 버전 완료" />
     <MESSAGE value="class4 행렬제곱 완료" />
     <MESSAGE value="class4 벽 부수고 이동하기 완료 / 프로그래머스 카카오 기출 등산코스 정하기 진행중" />
-    <option name="LAST_COMMIT_MESSAGE" value="class4 벽 부수고 이동하기 완료 / 프로그래머스 카카오 기출 등산코스 정하기 진행중" />
+    <MESSAGE value="프로그래머스 카카오기출 등산코스 정하기 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 카카오기출 등산코스 정하기 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
