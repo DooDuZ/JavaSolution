@@ -8,21 +8,16 @@ import java.util.*;
 class test{
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        int[] arr = {1,2,3};
 
-        ArrayList<User> users = new ArrayList<>();
-        ArrayList<Content> contents = new ArrayList<>();
+        int[] arr2 = arr.clone();
 
-        while(true){
-            System.out.println("=============================================");
-            System.out.println("1. 회원가입  2. 로그인 3. 게시판 4. 로그아웃");
+        arr2[0] = 2;
 
-            int cmd = scanner.nextInt();
-
-            if(cmd==4){
-                break;
-            }
+        for(int i = 0 ; i<3; i++){
+            System.out.println(arr[i] + " : " + arr2[i]);
         }
+
     }
 }
 

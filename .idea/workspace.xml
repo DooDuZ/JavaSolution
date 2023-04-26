@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class4 최소비용 구하기 2 / 피보나치 6 / 특정한 최단 경로 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test12.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="dp 가장 긴 증가하는 부분 수열 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test14502.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,16 +109,10 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test12">
-    <configuration name="Kakao2022_hikingCourse_v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.programmers.Kakao2022_hikingCourse_v2" />
-      <module name="JavaSolution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.test14502">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="JavaSolution.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1504" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1504" />
+    <configuration name="test14502" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test14502" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.levelTest.dp.*" />
+          <option name="PATTERN" value="solution.classTest.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test14502" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.test12" />
         <item itemvalue="Application.test11779" />
         <item itemvalue="Application.test11444" />
-        <item itemvalue="Application.test1504" />
-        <item itemvalue="Application.Kakao2022_hikingCourse_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -535,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682312911451</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="dp 가장 긴 증가하는 부분 수열 완료">
+      <created>1682375894260</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1682375894260</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="programmers 추가" />
     <MESSAGE value="백준 오랜만... class3 적록색약 완료" />
     <MESSAGE value="백준 오랜만... class3 적록색약 완료 / 적록색약 패턴 추가" />
     <MESSAGE value="백준 오랜만... class3 뱀과 사다리게임 진행중" />
@@ -578,7 +579,8 @@
     <MESSAGE value="class4 벽 부수고 이동하기 완료 / 프로그래머스 카카오 기출 등산코스 정하기 진행중" />
     <MESSAGE value="프로그래머스 카카오기출 등산코스 정하기 완료" />
     <MESSAGE value="class4 최소비용 구하기 2 / 피보나치 6 / 특정한 최단 경로 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="class4 최소비용 구하기 2 / 피보나치 6 / 특정한 최단 경로 완료" />
+    <MESSAGE value="dp 가장 긴 증가하는 부분 수열 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp 가장 긴 증가하는 부분 수열 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
