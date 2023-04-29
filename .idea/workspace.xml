@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class4 치킨 배달 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test14938.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class4 서강그라운드 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test17070.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,23 +108,10 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test14938">
+  <component name="RunManager" selected="Application.test17070">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="JavaSolution.test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.levelTest.dp.test12" />
-      <module name="JavaSolution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.levelTest.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,13 +155,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test17070" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test17070" />
+      <module name="JavaSolution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.classTest.class4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test17070" />
         <item itemvalue="Application.test14938" />
         <item itemvalue="Application.test15686" />
         <item itemvalue="Application.test14502" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.test12" />
       </list>
     </recent_temporary>
   </component>
@@ -550,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682633094992</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="class4 서강그라운드 완료">
+      <created>1682687318896</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1682687318896</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +575,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 오랜만... class3 뱀과 사다리게임 진행중" />
     <MESSAGE value="백준 오랜만... class3 뱀과 사다리게임 완료" />
     <MESSAGE value="백준 오랜만... class3 토마토 완료" />
     <MESSAGE value="class4 문자열 폭발 완료" />
@@ -593,7 +599,8 @@
     <MESSAGE value="dp 가장 긴 증가하는 부분 수열 완료" />
     <MESSAGE value="class4 연구소 완료" />
     <MESSAGE value="class4 치킨 배달 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="class4 치킨 배달 완료" />
+    <MESSAGE value="class4 서강그라운드 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="class4 서강그라운드 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
