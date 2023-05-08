@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class4 파이프 옮기기 1 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test13549.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/stringAlgorithm/test1786.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/woowahan/PathCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/woowahan/Repair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="우테캠 코테 2문제 풀이 추가">
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/woowahan/PathCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/woowahan/PathCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -573,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682785324533</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="우테캠 코테 2문제 풀이 추가">
+      <created>1683531984295</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1683531984295</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 오랜만... class3 토마토 완료" />
     <MESSAGE value="class4 문자열 폭발 완료" />
     <MESSAGE value="class4 거짓말, 누적합 2번 수열 완료 / level test 패키지 일부 이름 수정" />
     <MESSAGE value="class4 거짓말, 누적합 3번 인간-컴퓨터 상호작용, 클래스4 트리의지름1 완료 / 클래스4 트리의 지름2 진행중" />
@@ -616,7 +618,8 @@
     <MESSAGE value="class4 치킨 배달 완료" />
     <MESSAGE value="class4 서강그라운드 완료" />
     <MESSAGE value="class4 파이프 옮기기 1 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="class4 파이프 옮기기 1 완료" />
+    <MESSAGE value="우테캠 코테 2문제 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="우테캠 코테 2문제 풀이 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

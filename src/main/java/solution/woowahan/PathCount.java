@@ -81,13 +81,6 @@ public class PathCount {
         }
     }
 
-    public static boolean isDiagonal(int row, int col){
-        if(diagonalMap[row][col] > 0){
-            return true;
-        }
-        return false;
-    }
-
     public static int recur(int row, int col, int isDiagonal){
         if(dp[row][col][isDiagonal] == null){
             dp[row][col][isDiagonal] = ( recur(row - 1, col, isDiagonal) + recur(row, col - 1, isDiagonal) )%10000019;
