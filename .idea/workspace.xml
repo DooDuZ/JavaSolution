@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 소수의 연속합 완료 (투 포인터 알고리즘)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test11054.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 4 가장 긴 바이토닉 부분 수열 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1202.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test11054.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test11054.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,13 +109,13 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test11054">
+  <component name="RunManager" selected="Application.test1202">
     <configuration name="test11054" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test11054" />
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test11054" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class5.*" />
+          <option name="PATTERN" value="solution.classTest.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1197" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test1197" />
+    <configuration name="test1202" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test1202" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -140,7 +141,7 @@
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class5.*" />
+          <option name="PATTERN" value="solution.classTest.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,7 +154,7 @@
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class5.*" />
+          <option name="PATTERN" value="solution.classTest.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,7 +167,7 @@
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class5.*" />
+          <option name="PATTERN" value="solution.classTest.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test1202" />
         <item itemvalue="Application.test11054" />
         <item itemvalue="Application.test2239" />
         <item itemvalue="Application.test1806" />
         <item itemvalue="Application.test1644" />
-        <item itemvalue="Application.test1197" />
       </list>
     </recent_temporary>
   </component>
@@ -598,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684430833968</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="BOJ class 4 가장 긴 바이토닉 부분 수열 완료">
+      <created>1684756304770</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1684756304770</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,7 +624,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class4 클래스4 트리의 지름2 완료" />
     <MESSAGE value="level prefixSum / 나머지합 완료" />
     <MESSAGE value="class4 이진 검색 트리 완료" />
     <MESSAGE value="prefixSum 구간 합 구하기 5 완료" />
@@ -641,7 +648,8 @@
     <MESSAGE value="우테캠 코테 2문제 풀이 추가 / 안쓰는 메서드 삭제" />
     <MESSAGE value="BOJ class 5 최소 스패닝 트리 완료(프림 알고리즘 사용)" />
     <MESSAGE value="BOJ class 5 소수의 연속합 완료 (투 포인터 알고리즘)" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 소수의 연속합 완료 (투 포인터 알고리즘)" />
+    <MESSAGE value="BOJ class 4 가장 긴 바이토닉 부분 수열 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 4 가장 긴 바이토닉 부분 수열 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
