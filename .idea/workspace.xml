@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 줄 세우기 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test17143.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 낚시왕 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1005.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,13 +108,13 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test17143">
-    <configuration name="test11054" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test11054" />
+  <component name="RunManager" selected="Application.test1005">
+    <configuration name="test1005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test1005" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class4.*" />
+          <option name="PATTERN" value="solution.classTest.class5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test1005" />
         <item itemvalue="Application.test17143" />
         <item itemvalue="Application.test2252" />
         <item itemvalue="Application.test1647" />
         <item itemvalue="Application.test1202" />
-        <item itemvalue="Application.test11054" />
       </list>
     </recent_temporary>
   </component>
@@ -261,13 +261,6 @@
       <workItem from="1678763691948" duration="15000" />
       <workItem from="1679501446201" duration="2121000" />
       <workItem from="1679713975915" duration="310000" />
-    </task>
-    <task id="LOCAL-00004" summary="미로탈출 완료">
-      <created>1673245399889</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1673245399889</updated>
     </task>
     <task id="LOCAL-00005" summary="class3 획득 / 쿼드트리, DFS와BFS, 동전0 완료">
       <created>1673292959982</created>
@@ -605,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685310576719</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="BOJ class 5 낚시왕 완료">
+      <created>1685390373158</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1685390373159</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class4 치즈 완료" />
     <MESSAGE value="class4 prefixSum 체스판 다시 칠하기2 완료" />
     <MESSAGE value="level greedy 주유소 완료" />
     <MESSAGE value="class4 최단 경로 완료" />
@@ -648,7 +647,8 @@
     <MESSAGE value="BOJ class 5 보석도둑 완료" />
     <MESSAGE value="BOJ class 5 도시 분리 계획 완료" />
     <MESSAGE value="BOJ class 5 줄 세우기 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 줄 세우기 완료" />
+    <MESSAGE value="BOJ class 5 낚시왕 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 낚시왕 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
