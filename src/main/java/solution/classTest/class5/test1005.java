@@ -8,7 +8,6 @@ import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 public class test1005 {
-
     static StringBuilder sb = new StringBuilder();
 
     public static void main(String[] args) throws IOException {

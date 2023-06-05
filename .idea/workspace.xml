@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 낚시왕 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1005.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 AMC Craft 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1005.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,13 +261,6 @@
       <workItem from="1678763691948" duration="15000" />
       <workItem from="1679501446201" duration="2121000" />
       <workItem from="1679713975915" duration="310000" />
-    </task>
-    <task id="LOCAL-00005" summary="class3 획득 / 쿼드트리, DFS와BFS, 동전0 완료">
-      <created>1673292959982</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1673292959982</updated>
     </task>
     <task id="LOCAL-00006" summary="백트래킹 스타트와 링크 완료">
       <created>1673528165722</created>
@@ -605,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685390373159</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="BOJ class 5 AMC Craft 완료">
+      <created>1685961255757</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1685961255757</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class4 prefixSum 체스판 다시 칠하기2 완료" />
     <MESSAGE value="level greedy 주유소 완료" />
     <MESSAGE value="class4 최단 경로 완료" />
     <MESSAGE value="level queue/deque 회전하는 큐 완료, level binarySearch 곱셈 완료" />
@@ -648,7 +647,8 @@
     <MESSAGE value="BOJ class 5 도시 분리 계획 완료" />
     <MESSAGE value="BOJ class 5 줄 세우기 완료" />
     <MESSAGE value="BOJ class 5 낚시왕 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 낚시왕 완료" />
+    <MESSAGE value="BOJ class 5 AMC Craft 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 AMC Craft 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
