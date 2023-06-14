@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-// 모든 정점을 순회할 경우 시간초과
+// 모든 정점을 visited할 경우 시간초과
     // 1. 임의의 한 노드에서 가장 먼 노드 찾기
     // 2. 해당 노드에서 가장 먼 노드까지의 거리 = 트리의 지름
 public class test1167 {

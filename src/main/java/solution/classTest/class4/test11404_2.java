@@ -32,7 +32,7 @@ public class test11404_2 {
 
         for(int i = 0 ; i<cities; i++){ // round
             for(int j = 0; j<cities; j++){ // 출발점
-                for (int k = 0 ; k<cities; k++){ // 출발점 cost 순회
+                for (int k = 0 ; k<cities; k++){ // 출발점 cost visited
                     if(j==k){
                         costChart[j][k] = (long) 0;
                     }

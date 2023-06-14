@@ -11,7 +11,7 @@ public class test9_7_1 {
 		// 시간초과 발생
 			// x,y를 입력과 동시에 모두 카운팅하고
 			// y값 기준 정렬 후
-			// x값이 존재한다면 배열 전체 순회[<-여기서 시간 낭비가 심하다... 범위 * x가 존재하는 경우의 수 ]
+			// x값이 존재한다면 배열 전체 visited[<-여기서 시간 낭비가 심하다... 범위 * x가 존재하는 경우의 수 ]
 			// x값들을 순서대로 stringbuilder에 append 한다.
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -26,7 +26,7 @@ public class test16236_3 {
     // 같은 거리의 셀을 저장할 리스트
     static ArrayList<Integer[]> eatAble = new ArrayList<>();
 
-    // 순회 종료시점까지 걸린 시간
+    // visited 종료시점까지 걸린 시간
     static int count = 0;
 
     // 상어의 크기

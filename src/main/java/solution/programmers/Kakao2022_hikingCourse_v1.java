@@ -77,7 +77,7 @@ public class Kakao2022_hikingCourse_v1 {
             int value = info[1];
 
             //System.out.println("현재 방문 노드는" + (node.idx+1));
-            //System.out.println("현재 순회 대상은 " + node.connected.size() + "개 입니다.");
+            //System.out.println("현재 visited 대상은 " + node.connected.size() + "개 입니다.");
 
             if(node.isTop){ // 정상인 경우
                 // System.out.println("들어옴");
