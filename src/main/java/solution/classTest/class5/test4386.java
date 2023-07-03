@@ -12,7 +12,6 @@ public class test4386 {
     static ArrayList<Node> nodeList = new ArrayList<>();
     static ArrayList<ArrayList<EdgeD>> edges = new ArrayList<>();
     static boolean[] visited;
-
     static double answer = 0;
     static PriorityQueue<EdgeD> pq = new PriorityQueue<>();
 

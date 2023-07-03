@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 행성 터널 완료 / 오랜만!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1799.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test4386.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 비숍 / 별자리 만들기 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test9527.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test4386.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test4386.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,16 +110,10 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test4386">
-    <configuration name="test1005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test1005" />
-      <module name="JavaSolution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.classTest.class5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="JavaSolution.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test9328" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test9328" />
+    <configuration name="test9527" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test9527" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -177,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.test9527" />
         <item itemvalue="Application.test4386" />
         <item itemvalue="Application.test1799" />
         <item itemvalue="Application.test2887" />
-        <item itemvalue="Application.test9328" />
-        <item itemvalue="Application.test1005" />
       </list>
     </recent_temporary>
   </component>
@@ -262,13 +257,6 @@
       <workItem from="1678763691948" duration="15000" />
       <workItem from="1679501446201" duration="2121000" />
       <workItem from="1679713975915" duration="310000" />
-    </task>
-    <task id="LOCAL-00008" summary="level17 dp 쉬운계단수 완료">
-      <created>1675114443512</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1675114443512</updated>
     </task>
     <task id="LOCAL-00009" summary="class3 케빈베이컨의 6단계 법칙 완료">
       <created>1675635951156</created>
@@ -606,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686711622439</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="BOJ class 5 비숍 / 별자리 만들기 완료">
+      <created>1687760337002</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1687760337002</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +619,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class4 최단 경로 완료" />
     <MESSAGE value="level queue/deque 회전하는 큐 완료, level binarySearch 곱셈 완료" />
     <MESSAGE value="프로그래머스 2023카카오 기출 셀 병합 완료" />
     <MESSAGE value="class4 웜홀 완료" />
@@ -649,7 +643,8 @@
     <MESSAGE value="BOJ class 5 낚시왕 완료" />
     <MESSAGE value="BOJ class 5 AMC Craft 완료" />
     <MESSAGE value="BOJ class 5 행성 터널 완료 / 오랜만!" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 행성 터널 완료 / 오랜만!" />
+    <MESSAGE value="BOJ class 5 비숍 / 별자리 만들기 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 비숍 / 별자리 만들기 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
