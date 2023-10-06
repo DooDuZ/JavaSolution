@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 4 평범한 배낭 푸는 중 __ 오랜만!!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test12865_2.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 4 평범한 배낭 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test1162.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test12856.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test12856_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,10 +108,23 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test12865_2">
+  <component name="RunManager" selected="Application.test1162">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="JavaSolution.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1162" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1162" />
+      <module name="JavaSolution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.classTest.class4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,26 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test9527" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test9527" />
-      <module name="JavaSolution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.classTest.class5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test1162" />
         <item itemvalue="Application.test12865_2" />
         <item itemvalue="Application.test12856_1" />
         <item itemvalue="Application.test1987" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.test9527" />
       </list>
     </recent_temporary>
   </component>
@@ -256,13 +255,6 @@
       <workItem from="1678763691948" duration="15000" />
       <workItem from="1679501446201" duration="2121000" />
       <workItem from="1679713975915" duration="310000" />
-    </task>
-    <task id="LOCAL-00012" summary="class3 아기상어야 밥좀 그만먹어라.,.">
-      <created>1676105167793</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1676105167793</updated>
     </task>
     <task id="LOCAL-00013" summary="class3 아기상어 완료">
       <created>1676171438711</created>
@@ -600,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696271144117</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="BOJ class 4 평범한 배낭 완료">
+      <created>1696485771003</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1696485771003</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +617,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class4 파티 다익스트라 버전 완료" />
     <MESSAGE value="class4 행렬제곱 완료" />
     <MESSAGE value="class4 벽 부수고 이동하기 완료 / 프로그래머스 카카오 기출 등산코스 정하기 진행중" />
     <MESSAGE value="프로그래머스 카카오기출 등산코스 정하기 완료" />
@@ -643,7 +641,8 @@
     <MESSAGE value="BOJ class 5 1의 개수 세기 완료" />
     <MESSAGE value="BOJ class 4 알파벳 완료" />
     <MESSAGE value="BOJ class 4 평범한 배낭 푸는 중 __ 오랜만!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 4 평범한 배낭 푸는 중 __ 오랜만!!" />
+    <MESSAGE value="BOJ class 4 평범한 배낭 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 4 평범한 배낭 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
