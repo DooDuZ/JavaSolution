@@ -7,6 +7,7 @@ import java.util.*;
 
 public class test1162 {
     // 도로포장 진행중
+        // 메모리 초과가 난다,, ,어디서 어떻게...?
 
     static int INF = 1000000000;
     static int N;
@@ -14,7 +15,7 @@ public class test1162 {
     static int K;
     static ArrayList<ArrayList<CountEdge>> edges = new ArrayList<>();
     static PriorityQueue<CountEdge> pq = new PriorityQueue<>();
-    static int[] dist;
+    static long[][] dist;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -24,9 +25,11 @@ public class test1162 {
         M = Integer.parseInt(st.nextToken());
         K = Integer.parseInt(st.nextToken());
 
-        dist = new int[N];
+        dist = new long[N][K+1];
 
-        Arrays.fill(dist, INF);
+        for(int i = 0 ; i<N; i++){
+            Arrays.fill(dist[i], INF);
+        }
 
         for(int i = 0 ; i<N; i++){
             edges.add(new ArrayList<>());
@@ -43,30 +46,36 @@ public class test1162 {
             edges.get(to).add(new CountEdge(from, cost, 0));
         }
 
-        dist[0] = 0;
+        dist[0][0] = 0;
+
         pq.add(new CountEdge(0, 0, 0));
 
         dijkstra();
 
-        System.out.println(dist[N-1]);
+        long answer = Long.MAX_VALUE;
+
+        for(int i = 0; i<=K; i++){
+            answer = Math.min(dist[N-1][i], answer);
+        }
+
+        System.out.println(answer);
     }
 
     public static void dijkstra(){
         while (!pq.isEmpty()){
             CountEdge cur = pq.poll();
 
-            if(dist[cur.v] != cur.c){ continue; }
+            if(dist[cur.v][cur.count] != cur.c){ continue; }
 
-            ArrayList<CountEdge> edgeList = edges.get(cur.v);
-
-            for( CountEdge e : edgeList ){
-                int totalCost = e.c;
-                if(cur.step>=K){
-                    totalCost += cur.c;
+            for( CountEdge e : edges.get(cur.v) ){
+                if(cur.count<K && cur.c < dist[e.v][cur.count+1] ){
+                    pq.add(new CountEdge(e.v, cur.c, cur.count+1));
+                    dist[e.v][cur.count+1] = cur.c;
                 }
-                if( totalCost < dist[e.v]){
-                    pq.add(new CountEdge(e.v, totalCost, cur.step+1));
-                    dist[e.v] = totalCost;
+
+                if(e.c+cur.c < dist[e.v][cur.count]){
+                    pq.add(new CountEdge(e.v, e.c+cur.c, cur.count));
+                    dist[e.v][cur.count] = cur.c+e.c;
                 }
             }
         }
@@ -75,17 +84,22 @@ public class test1162 {
 
 class CountEdge implements Comparable<CountEdge> {
     int v;
-    int c;
-    int step;
-    CountEdge(int v, int c, int step){
+    long c;
+    int count;
+    CountEdge(int v, long c, int count){
         this.v = v;
         this.c = c;
-        this.step = step;
+        this.count = count;
     }
 
     @Override
     public int compareTo(CountEdge e){
-        return e.c-this.c;
+        if(e.c>this.c){
+            return 1;
+        }else if(e.c<this.c){
+            return -1;
+        }
+        return 0;
     }
 }
 
@@ -94,4 +108,5 @@ class CountEdge implements Comparable<CountEdge> {
 1 2 10
 2 1 51
 
+0
  */
