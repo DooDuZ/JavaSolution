@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 4 도로포장 진행중[메모리초과 해결 필요..]">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test1162_2.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 4 도로포장 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test14940_bfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class3/test14940_dfs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test1162.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test1162.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test1162_2">
+  <component name="RunManager" selected="Application.test14940_bfs">
     <configuration name="test1162" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1162" />
       <module name="JavaSolution.main" />
@@ -164,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1987" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test1987" />
+    <configuration name="test14940_bfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class3.test14940_bfs" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class4.*" />
+          <option name="PATTERN" value="solution.classTest.class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test14940_bfs" />
         <item itemvalue="Application.test1162_2" />
         <item itemvalue="Application.test1162" />
         <item itemvalue="Application.test12865_2" />
         <item itemvalue="Application.test12856_1" />
-        <item itemvalue="Application.test1987" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +269,11 @@
       <workItem from="1696586165768" duration="353000" />
       <workItem from="1697138300246" duration="4060000" />
       <workItem from="1697199539768" duration="3220000" />
-      <workItem from="1697205581408" duration="138000" />
+      <workItem from="1697205581408" duration="752000" />
+      <workItem from="1697389228452" duration="597000" />
+      <workItem from="1697453417550" duration="83000" />
+      <workItem from="1700568486502" duration="32000" />
+      <workItem from="1700632480249" duration="3789000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
@@ -614,7 +618,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696573123907</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="프로그래머스 카카오기출 등산코스 정하기 완료" />
     <MESSAGE value="class4 최소비용 구하기 2 / 피보나치 6 / 특정한 최단 경로 완료" />
     <MESSAGE value="dp 가장 긴 증가하는 부분 수열 완료" />
     <MESSAGE value="class4 연구소 완료" />
@@ -657,7 +660,8 @@
     <MESSAGE value="BOJ class 4 평범한 배낭 완료" />
     <MESSAGE value="BOJ class 4 도로포장 진행중" />
     <MESSAGE value="BOJ class 4 도로포장 진행중[메모리초과 해결 필요..]" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 4 도로포장 진행중[메모리초과 해결 필요..]" />
+    <MESSAGE value="BOJ class 4 도로포장 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 4 도로포장 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
