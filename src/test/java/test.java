@@ -29,23 +29,3 @@ class test{
         return addBin(sum, carry);
     }
 }
-
-class User{
-    String id;
-    String pw;
-    String name;
-    String email;
-
-    User(String id, String pw, String name, String email){
-        this.id = id;
-        this.pw = pw;
-        this.name = name;
-        this.email = email;
-    }
-}
-
-class Content{
-    String title;
-    String writer;
-    String content;
-}
