@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 4,5 lcs, lcs2 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test13460.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test15644.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test15653.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 구슬탈출 1234 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test2098.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +113,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test15644">
+  <component name="RunManager" selected="Application.test2098">
     <configuration name="test13460" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test13460" />
       <module name="JavaSolution.main" />
@@ -155,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test9251" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class4.test9251" />
+    <configuration name="test2098" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test2098" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.classTest.class4.*" />
+          <option name="PATTERN" value="solution.classTest.class5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test2098" />
         <item itemvalue="Application.test15644" />
         <item itemvalue="Application.test15653" />
         <item itemvalue="Application.test13460" />
         <item itemvalue="Application.test9252" />
-        <item itemvalue="Application.test9251" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +284,9 @@
       <workItem from="1701260221182" duration="778000" />
       <workItem from="1701496380237" duration="3144000" />
       <workItem from="1701501430516" duration="1785000" />
-      <workItem from="1701573347403" duration="15077000" />
+      <workItem from="1701573347403" duration="15698000" />
+      <workItem from="1701680432268" duration="1190000" />
+      <workItem from="1701697349794" duration="6669000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
@@ -631,7 +631,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696573123907</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class4 치킨 배달 완료" />
     <MESSAGE value="class4 서강그라운드 완료" />
     <MESSAGE value="class4 파이프 옮기기 1 완료" />
     <MESSAGE value="우테캠 코테 2문제 풀이 추가" />
@@ -674,7 +673,8 @@
     <MESSAGE value="BOJ class 3 쉬운 최단거리 완료" />
     <MESSAGE value="BOJ class 5 문제집 완료" />
     <MESSAGE value="BOJ class 4,5 lcs, lcs2 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 4,5 lcs, lcs2 완료" />
+    <MESSAGE value="BOJ class 5 구슬탈출 1234 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 구슬탈출 1234 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
