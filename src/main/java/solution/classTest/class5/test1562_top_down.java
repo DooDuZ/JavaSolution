@@ -7,50 +7,50 @@ import java.io.InputStreamReader;
 public class test1562_top_down {
 
     static int N;
-    static long[][][] dp;
+    static Long[][][] dp;
     static int MOD = 1_000_000_000;
+    static int FULL = (1 << 10) - 1;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         N = Integer.parseInt(br.readLine());
 
-        dp = new long[N + 1][10][1 << 10];
-
-        for (int i = 1; i < 10; i++) {
-            dp[1][i][1 << i] = 1;
-        }
-
-        for (int i = 2; i <= N; i++) {
-            for (int j = 0; j < 10; j++) {
-                for (int k = 0; k < 1 << 10; k++) {
-                    int bit = (1 << j) | k;
-
-                    long count = 0;
-                    if (j > 0) {
-                        count += dp[i - 1][j - 1][k];
-                    }
-
-                    if (j < 9) {
-                        count += dp[i - 1][j + 1][k];
-                    }
-
-                    dp[i][j][bit] = (dp[i][j][bit] + count) % MOD;
-                }
-            }
-        }
+        dp = new Long[N + 1][10][1 << 10];
 
         long answer = 0;
 
         for (int i = 0; i < 10; i++) {
-            answer += dp[N][i][1023];
+            answer += count(N, i, 1 << i);
             answer %= MOD;
         }
 
         System.out.println(answer);
     }
 
-    static void count(int digit, int last, int bit){
+    static long count(int digit, int last, int bit) {
+        if (digit == 1) {
+            if (bit == FULL) {
+                return 1;
+            }
+            return 0;
+        }
 
+        if (dp[digit][last][bit] == null) {
+
+            long count = 0;
+
+            if (last > 0) {
+                count += count(digit - 1, last - 1, bit | (1 << (last - 1)));
+            }
+
+            if (last < 9) {
+                count += count(digit - 1, last + 1, bit | (1 << (last + 1)));
+            }
+
+            dp[digit][last][bit] = count;
+        }
+
+        return dp[digit][last][bit];
     }
 }
