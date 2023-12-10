@@ -3,6 +3,7 @@ package solution.classTest.class5;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
 public class test1562_top_down {
 
@@ -18,6 +19,12 @@ public class test1562_top_down {
 
         dp = new Long[N + 1][10][1 << 10];
 
+        for (int i = 0; i < 10; i++) {
+            Arrays.fill(dp[1][i], 0L);
+            dp[1][i][FULL] = 1L;
+        }
+        dp[1][0][FULL] = 0L;
+
         long answer = 0;
 
         for (int i = 0; i < 10; i++) {
@@ -29,15 +36,7 @@ public class test1562_top_down {
     }
 
     static long count(int digit, int last, int bit) {
-        if (digit == 1) {
-            if (bit == FULL) {
-                return 1;
-            }
-            return 0;
-        }
-
         if (dp[digit][last][bit] == null) {
-
             long count = 0;
 
             if (last > 0) {
@@ -48,7 +47,7 @@ public class test1562_top_down {
                 count += count(digit - 1, last + 1, bit | (1 << (last + 1)));
             }
 
-            dp[digit][last][bit] = count;
+            dp[digit][last][bit] = count % MOD;
         }
 
         return dp[digit][last][bit];

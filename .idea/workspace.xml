@@ -61,6 +61,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/solution/classTest/class5/test13460.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1562_top_down.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/solution/classTest/class5/test15644.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/solution/classTest/class5/test15653.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/solution/levelTest/dp/test17_6.java" root0="FORCE_HIGHLIGHTING" />
@@ -86,6 +87,7 @@
   "keyToString": {
     "Gradle.JavaSolution [:test.main()].executor": "Run",
     "Gradle.JavaSolution [:test1562.main()].executor": "Run",
+    "Gradle.JavaSolution [:test1562_bottom_up.main()].executor": "Run",
     "Gradle.JavaSolution [:test1562_top_down.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -118,7 +120,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test1562_top_down">
+  <component name="RunManager" selected="Application.test1562_bottom_up">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test" />
       <module name="JavaSolution.main" />
@@ -301,6 +303,8 @@
       <workItem from="1701697349794" duration="6669000" />
       <workItem from="1702101451610" duration="3883000" />
       <workItem from="1702112865261" duration="11195000" />
+      <workItem from="1702177661741" duration="300000" />
+      <workItem from="1702177975329" duration="1516000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
