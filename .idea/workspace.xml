@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 계단 수 완료 / top-down으로 변경 중">
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 계단 수 top-down 구현 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1208.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1562_top_down.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1562_top_down.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.JavaSolution [:test.main()].executor": "Run",
+    "Gradle.JavaSolution [:test1208.main()].executor": "Run",
     "Gradle.JavaSolution [:test1562.main()].executor": "Run",
     "Gradle.JavaSolution [:test1562_bottom_up.main()].executor": "Run",
     "Gradle.JavaSolution [:test1562_top_down.main()].executor": "Run",
@@ -120,9 +121,22 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test1562_bottom_up">
+  <component name="RunManager" selected="Application.test1208">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test" />
+      <module name="JavaSolution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.classTest.class5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1208" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test1208" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -160,19 +174,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test15644" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test15644" />
-      <module name="JavaSolution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.classTest.class5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test2098" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test2098" />
       <module name="JavaSolution.main" />
@@ -188,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test1208" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.test1562_top_down" />
         <item itemvalue="Application.test1562_bottom_up" />
         <item itemvalue="Application.test2098" />
-        <item itemvalue="Application.test15644" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +305,8 @@
       <workItem from="1702101451610" duration="3883000" />
       <workItem from="1702112865261" duration="11195000" />
       <workItem from="1702177661741" duration="300000" />
-      <workItem from="1702177975329" duration="1516000" />
+      <workItem from="1702177975329" duration="1662000" />
+      <workItem from="1702180029135" duration="1265000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
@@ -649,7 +651,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696573123907</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -667,7 +669,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class4 파이프 옮기기 1 완료" />
     <MESSAGE value="우테캠 코테 2문제 풀이 추가" />
     <MESSAGE value="우테캠 코테 2문제 풀이 추가 / 안쓰는 메서드 삭제" />
     <MESSAGE value="BOJ class 5 최소 스패닝 트리 완료(프림 알고리즘 사용)" />
@@ -692,7 +693,8 @@
     <MESSAGE value="BOJ class 4,5 lcs, lcs2 완료" />
     <MESSAGE value="BOJ class 5 구슬탈출 1234 완료" />
     <MESSAGE value="BOJ class 5 계단 수 완료 / top-down으로 변경 중" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 계단 수 완료 / top-down으로 변경 중" />
+    <MESSAGE value="BOJ class 5 계단 수 top-down 구현 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 계단 수 top-down 구현 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
