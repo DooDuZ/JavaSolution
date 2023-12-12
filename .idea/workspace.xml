@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 계단 수 top-down 구현 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/backtracking/test1182.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 부분 수열의 합 2 진행중 / 부분수열의 합 1 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1208.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1208.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +121,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test1182">
+  <component name="RunManager" selected="Application.test1208">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test" />
       <module name="JavaSolution.main" />
@@ -307,6 +307,7 @@
       <workItem from="1702177661741" duration="300000" />
       <workItem from="1702177975329" duration="1662000" />
       <workItem from="1702180029135" duration="1265000" />
+      <workItem from="1702361271150" duration="8913000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
@@ -651,7 +652,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696573123907</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,7 +670,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="우테캠 코테 2문제 풀이 추가" />
     <MESSAGE value="우테캠 코테 2문제 풀이 추가 / 안쓰는 메서드 삭제" />
     <MESSAGE value="BOJ class 5 최소 스패닝 트리 완료(프림 알고리즘 사용)" />
     <MESSAGE value="BOJ class 5 소수의 연속합 완료 (투 포인터 알고리즘)" />
@@ -694,7 +694,8 @@
     <MESSAGE value="BOJ class 5 구슬탈출 1234 완료" />
     <MESSAGE value="BOJ class 5 계단 수 완료 / top-down으로 변경 중" />
     <MESSAGE value="BOJ class 5 계단 수 top-down 구현 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 계단 수 top-down 구현 완료" />
+    <MESSAGE value="BOJ class 5 부분 수열의 합 2 진행중 / 부분수열의 합 1 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 부분 수열의 합 2 진행중 / 부분수열의 합 1 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
