@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public abstract class test1208 {
+public class test1208 {
 
     static int N;
     static int S;
