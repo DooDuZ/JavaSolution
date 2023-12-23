@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 펠린드롬 분할 진행중 / gold4 펠린드롬 완료">
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 펠린드롬 분할 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test10775.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1509.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1509.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test1162.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test1162.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,9 +123,9 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test1509">
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test" />
+  <component name="RunManager" selected="Application.test10775">
+    <configuration name="test10775" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test10775" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -190,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test10775" />
         <item itemvalue="Application.test1509" />
         <item itemvalue="Application.test10942" />
         <item itemvalue="Application.test1182" />
         <item itemvalue="Application.test1208" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +313,9 @@
       <workItem from="1702542532276" duration="10016000" />
       <workItem from="1702565043051" duration="8799000" />
       <workItem from="1702728038667" duration="642000" />
-      <workItem from="1703243742792" duration="10253000" />
+      <workItem from="1703243742792" duration="10433000" />
+      <workItem from="1703314545892" duration="1602000" />
+      <workItem from="1703336339391" duration="2480000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
@@ -657,7 +660,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696573123907</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +678,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BOJ class 5 소수의 연속합 완료 (투 포인터 알고리즘)" />
     <MESSAGE value="BOJ class 4 가장 긴 바이토닉 부분 수열 완료" />
     <MESSAGE value="BOJ class 5 보석도둑 완료" />
     <MESSAGE value="BOJ class 5 도시 분리 계획 완료" />
@@ -700,7 +702,8 @@
     <MESSAGE value="BOJ class 5 부분 수열의 합 2 진행중 / 부분수열의 합 1 완료" />
     <MESSAGE value="BOJ class 5 부분 수열의 합 2 완료" />
     <MESSAGE value="BOJ class 5 펠린드롬 분할 진행중 / gold4 펠린드롬 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 펠린드롬 분할 진행중 / gold4 펠린드롬 완료" />
+    <MESSAGE value="BOJ class 5 펠린드롬 분할 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 펠린드롬 분할 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

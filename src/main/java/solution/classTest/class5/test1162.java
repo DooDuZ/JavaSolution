@@ -1,4 +1,4 @@
-package solution.classTest.class4;
+package solution.classTest.class5;
 
 import java.io.BufferedReader;
 import java.io.IOException;
