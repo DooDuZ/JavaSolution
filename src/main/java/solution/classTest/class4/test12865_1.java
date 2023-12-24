@@ -11,7 +11,7 @@ import java.util.*;
     // 결국 dp로 접근해야 할듯... dp는 항상 어렵다. 실버만 봐도 헤매는데 뭔 골드여 골드는...
     // 내일 다시 풀어볼 것
 
-public class test12856_1 {
+public class test12865_1 {
     static int N;
     static int K;
     static PriorityQueue<Obj> pq = new PriorityQueue<Obj>();
