@@ -16,7 +16,7 @@ public class test20303 {
     static Child[] children;
     static ArrayList<Integer[]> groups = new ArrayList<>();
 
-    static Integer[][] dp;
+    static int[] dp;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -50,23 +50,49 @@ public class test20303 {
             }
         }
 
-        Collections.sort(groups, (e1, e2) -> {
-            if (e1[0] == e2[0]) {
-                return e2[1] - e1[1];
+        dp = new int[K+1];
+
+        knapsack();
+
+        System.out.println(dp[K-1]);
+    }
+
+    static void knapsack() {
+
+        for (int i = 0; i < groups.size(); i++) {
+
+            Integer[] group = groups.get(i);
+
+            for (int j = K; j - group[0] >= 0; j--) {
+                dp[j] = Math.max(dp[j], dp[j - group[0]] + group[1]);
             }
-            return e1[0] - e2[0];
-        });
-
-        dp = new Integer[K + 1][groups.size() + 1];
-
-
+        }
     }
 
-    static int knapsack(int weight, int count) {
+/*
+    top-down 시간 초과
 
+    static int knapsack(int index, int weight) {
+        if (index < 0) {
+            return 0;
+        }
 
-        return dp[weight][count];
+        if (dp[index][weight] == null) {
+
+            Integer[] group = groups.get(index);
+
+            if (group[0] > weight) {
+                dp[index][weight] = knapsack(index - 1, weight);
+            } else {
+                dp[index][weight] = Math.max(knapsack(index - 1, weight),
+                        knapsack(index - 1, weight - group[0]) + group[1]);
+            }
+        }
+
+        return dp[index][weight];
     }
+
+ */
 
     static Integer[] getAllCandies(Child child) {
         LinkedList<Child> queue = new LinkedList<>();
