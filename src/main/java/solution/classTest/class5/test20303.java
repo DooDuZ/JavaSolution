@@ -91,7 +91,6 @@ public class test20303 {
 
         return dp[index][weight];
     }
-
  */
 
     static Integer[] getAllCandies(Child child) {
