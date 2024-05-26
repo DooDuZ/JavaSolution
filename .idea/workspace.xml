@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 할로윈의 양아치 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test12850.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test2143.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 두 배열의 합 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test12015.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test11779.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class4/test11779.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test20303.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test20303.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sin91/simple-port-mis-main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sin91/IdeaProjects/PROJECT_MoKkoJi_EC2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -127,22 +125,16 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test2143">
-    <configuration name="test10775" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test10775" />
-      <module name="JavaSolution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.classTest.class5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.test12015">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="JavaSolution.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1509" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test1509" />
+    <configuration name="test12015" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test12015" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -195,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test12015" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.test2143" />
         <item itemvalue="Application.test20303" />
         <item itemvalue="Application.test17404" />
-        <item itemvalue="Application.test10775" />
-        <item itemvalue="Application.test1509" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +324,11 @@
       <workItem from="1715732556328" duration="143000" />
       <workItem from="1715841450129" duration="20000" />
       <workItem from="1715959313095" duration="202000" />
-      <workItem from="1716478868904" duration="6854000" />
+      <workItem from="1716478868904" duration="6905000" />
+      <workItem from="1716515838350" duration="188000" />
+      <workItem from="1716521008569" duration="30000" />
+      <workItem from="1716718869792" duration="11691000" />
+      <workItem from="1716735026606" duration="2796000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
@@ -677,7 +673,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696573123907</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,7 +691,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BOJ class 5 줄 세우기 완료" />
     <MESSAGE value="BOJ class 5 낚시왕 완료" />
     <MESSAGE value="BOJ class 5 AMC Craft 완료" />
     <MESSAGE value="BOJ class 5 행성 터널 완료 / 오랜만!" />
@@ -720,7 +715,8 @@
     <MESSAGE value="BOJ class 5 공항 완료" />
     <MESSAGE value="BOJ class 5 RGB 거리 2 완료" />
     <MESSAGE value="BOJ class 5 할로윈의 양아치 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 할로윈의 양아치 완료" />
+    <MESSAGE value="BOJ class 5 두 배열의 합 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 두 배열의 합 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -736,6 +732,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="6" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -10,10 +10,10 @@ import java.util.Map;
 import java.util.*;
 class test{
     public static void main(String[] args) {
-        int a = 3;
-        int b = 8;
+        int a = 0, b = 10;
 
-        System.out.println( Integer.toBinaryString(addBin(a,b)) );
+        System.out.println(a);
+        System.out.println(b);
     }
 
     public static int addBin(int a, int b) {
