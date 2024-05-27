@@ -5,21 +5,21 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// 다시 풀기
 public class test12015 {
-
     static int N;
-    static int[] numbers;
-    static int[] maxValue;
+    static int[] arr;
+
+    // 길이 별 마지막 값의 최대값 저장
+    static int[] dp;
     public static void main(String[] args) {
         init();
 
         int idx = 0;
 
         for (int i = 1; i < N; i++) {
-            if (maxValue[idx] < numbers[i]){
+            if (dp[idx] < arr[i]){
                 idx++;
-                maxValue[idx] = numbers[i];
+                dp[idx] = arr[i];
             }else {
                 int l = 0;
                 int r = idx;
@@ -28,14 +28,14 @@ public class test12015 {
                 while(l<r){
                     mid = (l+r) / 2;
 
-                    if (maxValue[mid] < numbers[i]){
+                    if (dp[mid] < arr[i]){
                         l = mid + 1;
                     }else {
                         r = mid;
                     }
                 }
 
-                maxValue[r] = numbers[i];
+                dp[r] = arr[i];
             }
         }
 
@@ -44,30 +44,24 @@ public class test12015 {
 
 
     private static void init() {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             N = Integer.parseInt(br.readLine());
 
-            numbers = new int[N];
-            maxValue = new int[N+1];
+            arr = new int[N];
+            dp = new int[N+1];
 
             StringTokenizer st = new StringTokenizer(br.readLine());
 
             for (int i = 0; i < N; i++) {
-                numbers[i] = Integer.parseInt(st.nextToken());
+                arr[i] = Integer.parseInt(st.nextToken());
             }
 
-            maxValue[0] = numbers[0];
+            dp[0] = arr[0];
 
+            br.close();
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("입출력 에러");
         }
     }
 }
-
-/*
-6
-20 10 50 10 20 30
- */

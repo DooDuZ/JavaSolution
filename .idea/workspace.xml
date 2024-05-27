@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 두 배열의 합 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test12015.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 가장 긴 증가하는 부분 수열2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test12015.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test12015.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,7 +327,9 @@
       <workItem from="1716515838350" duration="188000" />
       <workItem from="1716521008569" duration="30000" />
       <workItem from="1716718869792" duration="11691000" />
-      <workItem from="1716735026606" duration="2796000" />
+      <workItem from="1716735026606" duration="2822000" />
+      <workItem from="1716768973383" duration="764000" />
+      <workItem from="1716787363029" duration="3069000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
@@ -673,7 +674,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696573123907</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +692,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BOJ class 5 낚시왕 완료" />
     <MESSAGE value="BOJ class 5 AMC Craft 완료" />
     <MESSAGE value="BOJ class 5 행성 터널 완료 / 오랜만!" />
     <MESSAGE value="BOJ class 5 비숍 / 별자리 만들기 완료" />
@@ -716,7 +716,8 @@
     <MESSAGE value="BOJ class 5 RGB 거리 2 완료" />
     <MESSAGE value="BOJ class 5 할로윈의 양아치 완료" />
     <MESSAGE value="BOJ class 5 두 배열의 합 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 두 배열의 합 완료" />
+    <MESSAGE value="BOJ class 5 가장 긴 증가하는 부분 수열2" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 가장 긴 증가하는 부분 수열2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
