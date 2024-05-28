@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 가장 긴 증가하는 부분 수열2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test2568.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test12015.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test12015.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +124,7 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test12015">
+  <component name="RunManager" selected="Application.test2568">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="JavaSolution.test" />
@@ -134,19 +134,6 @@
     </configuration>
     <configuration name="test12015" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test12015" />
-      <module name="JavaSolution.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.classTest.class5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test17404" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test17404" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -184,13 +171,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test2568" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test2568" />
+      <module name="JavaSolution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.classTest.class5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test2568" />
         <item itemvalue="Application.test12015" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.test2143" />
         <item itemvalue="Application.test20303" />
-        <item itemvalue="Application.test17404" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +329,10 @@
       <workItem from="1716718869792" duration="11691000" />
       <workItem from="1716735026606" duration="2822000" />
       <workItem from="1716768973383" duration="764000" />
-      <workItem from="1716787363029" duration="3069000" />
+      <workItem from="1716787363029" duration="3725000" />
+      <workItem from="1716821642334" duration="5605000" />
+      <workItem from="1716854208544" duration="84000" />
+      <workItem from="1716854346174" duration="8240000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
@@ -674,7 +677,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696573123907</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
