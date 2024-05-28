@@ -3,9 +3,7 @@ package solution.classTest.class5;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.StringTokenizer;
 
 public class test2568 {
@@ -13,8 +11,6 @@ public class test2568 {
     static int N;
     static int[][] arr;
     static int[] dp;
-    // 현재 탐색한 인덱스에서 가질 수 있는 최대 LIS값 저장 배열
-        // 최대 길이가 idx와 일치하는 경우만 LIS에 포함된다.
     static int[] lng;
     static int idx = 0;
 
@@ -55,21 +51,13 @@ public class test2568 {
         // N에서 남은 줄 수를 차감 = 제거한 줄의 수
         sb.append(N - (idx + 1));
 
-        ArrayList<Integer> list = new ArrayList<>();
-
         for (int i = lng.length - 1; i >= 0; i--) {
             if(lng[i]==idx){
                 idx--;
             }else {
-                list.add(arr[i][0]);
+                sb.append('\n');
+                sb.append(arr[i][0]);
             }
-        }
-
-        Collections.sort(list);
-
-        for (Integer tmp : list){
-            sb.append('\n');
-            sb.append(tmp);
         }
 
         System.out.println(sb);
@@ -80,7 +68,7 @@ public class test2568 {
         N = Integer.parseInt(br.readLine());
 
         arr = new int[N][2];
-        dp = new int[N + 1];
+        dp = new int[N];
         lng = new int[N];
 
         StringTokenizer st;
