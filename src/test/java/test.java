@@ -1,19 +1,25 @@
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
-import java.util.*;
 class test{
-    public static void main(String[] args) {
-        int a = 0, b = 10;
 
-        System.out.println(a);
-        System.out.println(b);
+    static String[] fibonacci = new String[101];
+    static int cnt = 0;
+    public static void main(String[] args) {
+        fibonacci[0] = "0";
+        fibonacci[1] = "1";
+
+        getFibonacci(100);
+    }
+
+
+    private static String getFibonacci(int n){
+        cnt++;
+        if (fibonacci[n] == null){
+            StringBuilder sb = new StringBuilder();
+            sb.append(getFibonacci(n-1)).append(getFibonacci(n-2));
+
+            fibonacci[n] = sb.toString();
+        }
+
+        return fibonacci[n];
     }
 
     public static int addBin(int a, int b) {
