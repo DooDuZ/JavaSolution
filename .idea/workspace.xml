@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ class 5 전깃줄2 코드 수정 -&gt; 불필요한 정렬 삭제">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/hanghae/boj/test3080.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ 3080 아름다운 이름 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test14003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BackTracking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/hanghae/boj/test3080.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/hanghae/boj/test3080.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/stringAlgorithm/test1786.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/stringAlgorithm/test1786.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,16 +127,16 @@
       <recent name="C:\Users\sin91\IdeaProjects\JavaSolution\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test3080">
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+  <component name="RunManager" selected="Application.test14003">
+    <configuration name="BackTracking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackTracking" />
       <module name="JavaSolution.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test12015" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test12015" />
+    <configuration name="test14003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.classTest.class5.test14003" />
       <module name="JavaSolution.main" />
       <extension name="coverage">
         <pattern>
@@ -187,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test14003" />
+        <item itemvalue="Application.BackTracking" />
         <item itemvalue="Application.test3080" />
         <item itemvalue="Application.test2623" />
         <item itemvalue="Application.test2568" />
-        <item itemvalue="Application.test12015" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +343,13 @@
       <workItem from="1716915521965" duration="717000" />
       <workItem from="1716955412805" duration="2000" />
       <workItem from="1717006717831" duration="1323000" />
-      <workItem from="1717044533521" duration="9181000" />
+      <workItem from="1717044533521" duration="10065000" />
+      <workItem from="1717057518412" duration="263000" />
+      <workItem from="1717057795713" duration="7590000" />
+      <workItem from="1717158690727" duration="1885000" />
+      <workItem from="1717161388923" duration="315000" />
+      <workItem from="1717271801184" duration="668000" />
+      <workItem from="1717334121495" duration="3239000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
@@ -686,7 +694,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696573123907</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,7 +712,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BOJ class 5 1의 개수 세기 완료" />
     <MESSAGE value="BOJ class 4 알파벳 완료" />
     <MESSAGE value="BOJ class 4 평범한 배낭 푸는 중 __ 오랜만!!" />
     <MESSAGE value="BOJ class 4 평범한 배낭 완료" />
@@ -729,7 +736,8 @@
     <MESSAGE value="BOJ class 5 전깃줄-2 완료" />
     <MESSAGE value="BOJ class 5 음악프로그램 완료" />
     <MESSAGE value="BOJ class 5 전깃줄2 코드 수정 -&gt; 불필요한 정렬 삭제" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ class 5 전깃줄2 코드 수정 -&gt; 불필요한 정렬 삭제" />
+    <MESSAGE value="BOJ 3080 아름다운 이름 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ 3080 아름다운 이름 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

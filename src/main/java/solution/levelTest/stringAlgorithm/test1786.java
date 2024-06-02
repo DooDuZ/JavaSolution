@@ -12,7 +12,6 @@ public class test1786 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-
         String str = br.readLine();
         String pattern = br.readLine();
 
@@ -22,39 +21,39 @@ public class test1786 {
         System.out.println(sb.toString());
     }
 
-    public static void kmp(String str, String pattern){
+    public static void kmp(String str, String pattern) {
         int[] pi = getPi(pattern);
         int j = 0;
 
-        for(int i = 0; i<str.length(); i++){
-            while(j>0 && str.charAt(i)!= pattern.charAt(j)){
-                j = pi[j-1];
+        for (int i = 0; i < str.length(); i++) {
+            while (j > 0 && str.charAt(i) != pattern.charAt(j)) {
+                j = pi[j - 1];
             }
-            if(str.charAt(i) == pattern.charAt(j)){
-                if(j==pattern.length()-1){
-                    sb.append(i-pattern.length()+1+1).append(" ");
+            if (str.charAt(i) == pattern.charAt(j)) {
+                if (j == pattern.length() - 1) {
+                    sb.append(i - pattern.length() + 1 + 1).append(" ");
                     // 패턴이 일치한 경우 일치한 인덱스 값에서 패턴의 길이만큼 빼준다
                     // 패턴이 시작되는 위치를 표시하기 위해 인덱스에 +1 한다
                     // 정답은 0-indexed가 아닌 1-indexed를 사용하므로 +1 해준다
                     count++;
                     j = pi[j];
-                }else{
+                } else {
                     j++;
                 }
             }
         }
     }
 
-    public static int[] getPi(String pattern){
+    public static int[] getPi(String pattern) {
         int[] pi = new int[pattern.length()];
 
         int j = 0;
 
-        for(int i = 1 ; i<pattern.length(); i++){
-            while(j>0 && pattern.charAt(i) != pattern.charAt(j)){
-                j = pi[j-1];
+        for (int i = 1; i < pattern.length(); i++) {
+            while (j > 0 && pattern.charAt(i) != pattern.charAt(j)) {
+                j = pi[j - 1];
             }
-            if(pattern.charAt(i) == pattern.charAt(j)){
+            if (pattern.charAt(i) == pattern.charAt(j)) {
                 pi[i] = ++j;
             }
         }

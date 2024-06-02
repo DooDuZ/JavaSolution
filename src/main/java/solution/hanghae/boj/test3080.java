@@ -30,19 +30,27 @@ public class test3080 {
         long ret = 1;
         int group = 0;
 
+        // 길이가 짧아 비교가 불가능한 그룹이 있는지 체크
         boolean checkShort = false;
 
         for (int i = s; i < e; i++) {
+            // 탐색하는 문자의 길이가 조건보다 짧다면 체크하고 인덱스를 다음으로 넘겨준다.
             if (names[i].length() <= lng) {
                 s++;
                 checkShort = true;
                 continue;
             }
+
+            // 현재 탐색해야할 문자
             char lastAlp = names[s].charAt(lng);
 
+            // 탐색하는 문자와 현재 문자열의 해당 위치 문자가 다른 경우
             if (names[i].charAt(lng) != lastAlp) {
+                // 시작 인덱스부터 현재 진행 중인 인덱스 전까지 탐색하도록 넘겨주고
                 ret = multiple(ret, countOfSort(s, i, lng + 1));
+                // 시작점을 현재로 당겨온다
                 s = i;
+                // 단어 그룹 증가
                 group++;
             }
 
@@ -52,6 +60,8 @@ public class test3080 {
                 group++;
             }
         }
+
+        // 짧은 단어 그룹이 있다면 그룹 하나 증가
         if (checkShort){
             group++;
         }
