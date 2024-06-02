@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ 3080 아름다운 이름 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test14003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BackTracking.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class 5 가장 긴 증가하는 부분 수열 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test123123123123123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/hanghae/boj/test3080.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/hanghae/boj/test3080.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solution/levelTest/stringAlgorithm/test1786.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/levelTest/stringAlgorithm/test1786.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test14003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/classTest/class5/test14003.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +347,7 @@
       <workItem from="1717158690727" duration="1885000" />
       <workItem from="1717161388923" duration="315000" />
       <workItem from="1717271801184" duration="668000" />
-      <workItem from="1717334121495" duration="3239000" />
+      <workItem from="1717334121495" duration="6017000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
@@ -694,7 +692,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696573123907</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BOJ class 4 알파벳 완료" />
     <MESSAGE value="BOJ class 4 평범한 배낭 푸는 중 __ 오랜만!!" />
     <MESSAGE value="BOJ class 4 평범한 배낭 완료" />
     <MESSAGE value="BOJ class 4 도로포장 진행중" />
@@ -737,7 +734,8 @@
     <MESSAGE value="BOJ class 5 음악프로그램 완료" />
     <MESSAGE value="BOJ class 5 전깃줄2 코드 수정 -&gt; 불필요한 정렬 삭제" />
     <MESSAGE value="BOJ 3080 아름다운 이름 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ 3080 아름다운 이름 완료" />
+    <MESSAGE value="class 5 가장 긴 증가하는 부분 수열 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 5 가장 긴 증가하는 부분 수열 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

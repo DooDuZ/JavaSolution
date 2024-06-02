@@ -4,15 +4,16 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
 public class test14003 {
-
     static int N;
     static int[] numbers;
     static int[] dp;
     static int[] indexes;
+    static int MIN = -100000000;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,6 +22,9 @@ public class test14003 {
         numbers = new int[N];
         dp = new int[N + 1];
         indexes = new int[N];
+
+        // 안하면 음수 값 들어올 때 이상하게 돈다
+        Arrays.fill(dp, MIN);
 
         StringTokenizer st = new StringTokenizer(br.readLine());
 
