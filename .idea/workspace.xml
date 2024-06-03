@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="class 5 가장 긴 증가하는 부분 수열 5 / dp 초기화 수정">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/hanghae/boj/test10868.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solution/hanghae/boj/test10868_2.java" afterDir="false" />
+    <list default="true" id="574fcd15-2dc4-4034-a084-aa27f3244fb9" name="변경" comment="BOJ 최솟값 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solution/hanghae/boj/test10868.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solution/hanghae/boj/test10868.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +348,8 @@
       <workItem from="1717271801184" duration="668000" />
       <workItem from="1717334121495" duration="6066000" />
       <workItem from="1717388163080" duration="596000" />
-      <workItem from="1717410812602" duration="21347000" />
+      <workItem from="1717410812602" duration="21392000" />
+      <workItem from="1717437351148" duration="328000" />
     </task>
     <task id="LOCAL-00014" summary="programmers 추가">
       <created>1676531909218</created>
@@ -694,7 +694,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696573123907</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +712,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BOJ class 4 평범한 배낭 완료" />
     <MESSAGE value="BOJ class 4 도로포장 진행중" />
     <MESSAGE value="BOJ class 4 도로포장 진행중[메모리초과 해결 필요..]" />
     <MESSAGE value="BOJ class 4 도로포장 완료" />
@@ -737,7 +736,8 @@
     <MESSAGE value="BOJ 3080 아름다운 이름 완료" />
     <MESSAGE value="class 5 가장 긴 증가하는 부분 수열 5" />
     <MESSAGE value="class 5 가장 긴 증가하는 부분 수열 5 / dp 초기화 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 5 가장 긴 증가하는 부분 수열 5 / dp 초기화 수정" />
+    <MESSAGE value="BOJ 최솟값 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ 최솟값 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
