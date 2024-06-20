@@ -1,17 +1,20 @@
 package solution.implement_sort;
 
 public class CountingSort {
-    int min;
-    int max;
+    private int min;
+    private int max;
 
     // 외부에서 호출되는 메서드
     public int[] sort(int[] arr) {
+        if (arr == null || arr.length == 0){
+            return arr;
+        }
         return countingSort(arr, getCountArray(arr));
     }
 
     private int[] countingSort(int[] arr, int[] count) {
         // 입력 배열에 있는 각 값의 개수를 센다
-        count(arr, count);
+        countElements(arr, count);
         // counting 배열 누적합
         prefixSum(count);
 
@@ -21,14 +24,13 @@ public class CountingSort {
         for (int i = arr.length - 1; i >= 0; i--) {
 
             // 0인덱스이므로 - 1
-            sorted[count[arr[i] - min] - 1] = arr[i];
-            count[arr[i] - min]--;
+            sorted[--count[arr[i] - min]] = arr[i];
         }
 
         return sorted;
     }
 
-    private void count(int[] arr, int[] count) {
+    private void countElements(int[] arr, int[] count) {
         for (int number : arr) {
             // arr의 value를 count 배열의 index로 사용한다
             count[number - min] += 1;
